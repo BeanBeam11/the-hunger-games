@@ -1,0 +1,96 @@
+/* GLobal Style */
+html {
+	background-color: #ffffff;
+	box-sizing: border-box;
+}
+
+*,*:before,*:after {
+	box-sizing: inherit
+}
+
+body{
+	min-width: 320px;
+	margin: 0;
+	display: block;
+}
+
+html, body{
+	max-width: 100%;
+	min-height: 100%;
+	font-size: 62.5%;
+}
+
+.container {
+	background-color: #FFF;
+}
+
+/* Header Style */
+.header {
+	display: flex;
+	justify-content: space-between;
+	position: absolute;/* 
+	padding-top: 15px;
+	padding-bottom: 15px; */
+	background-color: #000000;
+	height: 50px;
+	max-width: 1280px;
+}
+
+.logo{
+	width: 200px;
+	height: 25px;
+	margin-left: 32px;
+	margin-top: 13px;
+}
+
+/* Navitation Bar Style */
+
+nav{
+	display: flex;
+}
+
+.nav_list {
+	position: relative;
+	background-color: #000000;
+}
+
+.navbar-item-story{
+	height: 50px;
+	line-height: 50px;
+
+}
+
+/* .nav-list-item-link:hover {
+	background-color: #e5e9dc;
+}
+ */
+
+/* Content Style */
+.content-area {
+	display: flex;
+	border-top: 3px solid #e5e9dc;
+	border-bottom: 3px solid #e5e9dc;
+}
+
+/* Main-Area Style */
+.main-area {
+	width: 66%;
+	padding-right: 40px;
+}
+
+/* SideBar Style */
+.sidebar {
+	width: 34%;
+	background-color: #e5e9dc;
+	padding: 20px 40px;
+	font-size: 85%;
+}
+
+/* Footer */
+.footer {
+	text-align: center;
+	font-size: 85%;
+	color: #999;
+	padding-bottom: 20px;
+	padding-top: 20px;
+}
