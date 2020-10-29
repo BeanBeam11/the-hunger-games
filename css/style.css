@@ -5,12 +5,13 @@ html {
 }
 
 *,*:before,*:after {
-	box-sizing: inherit
+	box-sizing: inherit;
 }
 
 body{
 	min-width: 320px;
 	margin: 0;
+	padding: 0;
 	display: block;
 	font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 	font-size: 12px;
@@ -36,8 +37,7 @@ body{
 	padding-bottom: 15px; */
 	background-color: #000000;
 	height: 50px;
-	width: 100%;
-
+	width: 100vw;
 }
 
 .logo{
@@ -104,6 +104,10 @@ body{
 .main-area {
 	width: 66%;
 	padding-right: 40px;
+}
+
+.img_main_photo{
+	width: 100vw;
 }
 
 /* SideBar Style */
