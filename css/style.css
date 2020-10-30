@@ -123,7 +123,17 @@ body{
 	text-align: center;
 	font-size: 36px;
 }
+.content_box{
+	width: 100vw;
+	height: 450px;
+}
 .three_finger_solute{
+	width: 450px;
+	height: 70px;
+	font-size: 48px;
+	margin-left: 13vw;
+}
+.img_three_finger_solute{
 	width: 100vw;
 }
 
