@@ -13,9 +13,6 @@ body{
 	margin: 0;
 	padding: 0;
 	display: block;
-	font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-	font-size: 12px;
-	font-weight: 100%;
 }
 
 /* html, body{
@@ -38,9 +35,12 @@ body{
 	background-color: #000000;
 	height: 50px;
 	width: 100vw;
+	font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+	font-size: 16px;
+	font-weight: 100%;
 }
 
-.logo{
+.logo_img{
 	position: relative;
 	width: 200px;
 	height: 25px;
@@ -108,6 +108,20 @@ body{
 
 .img_main_photo{
 	width: 100vw;
+}
+.white_box{
+	background-color: #fff;
+	width: 100vw;
+	height: 100px;
+}
+.btn_inside{
+	position: absolute;
+	width: 200px;
+	height: 50px;
+	margin-top: 5vh;
+	margin-left: 10vw;
+	text-align: center;
+	font-size: 36px;
 }
 
 /* SideBar Style */
