@@ -170,6 +170,8 @@ body{
 	width: 100vw;
 }
 .people_box{
+	display: flex;
+	flex: auto;
 	width: 100vw;
 	height: 500px;
 	background-color: #ffffff;
@@ -189,6 +191,11 @@ body{
 .peeta{
 	width: 25vw;
 	margin-left: 30px;
+}
+
+.gale{
+	width: 25vw;
+	margin-left: 25vw;
 }
 
 .vector{
