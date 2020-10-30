@@ -172,8 +172,31 @@ body{
 .people_box{
 	width: 100vw;
 	height: 500px;
-	background-color: #000;
+	background-color: #ffffff;
+	border: 3px solid #000;
 }
+
+.img_katniss{
+	margin-left: 14vw;
+}
+
+.word_katniss{
+	font-size: 36px;
+	color: white;
+	vertical-align:bottom;
+}
+
+.peeta{
+	width: 25vw;
+	margin-left: 30px;
+}
+
+.vector{
+	display: inline-block;
+	vertical-align:bottom;
+	margin-right: 0vw;
+}
+
 .img_quote_2{
 	width: 100vw;
 }
