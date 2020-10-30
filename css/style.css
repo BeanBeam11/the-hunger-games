@@ -110,6 +110,7 @@ body{
 	width: 100vw;
 }
 .white_box{
+	position: relative;
 	background-color: #fff;
 	width: 100vw;
 	height: 100px;
@@ -127,14 +128,36 @@ body{
 	width: 100vw;
 	height: 450px;
 }
-.three_finger_solute{
+/* .three_finger_solute{
 	width: 450px;
 	height: 70px;
 	font-size: 48px;
 	margin-left: 13vw;
-}
+} */
 .img_three_finger_solute{
 	width: 100vw;
+}
+.img_quote_1{
+	width: 100vw;
+}
+.people_box{
+	width: 100vw;
+	height: 500px;
+	background-color: #000;
+}
+.img_quote_2{
+	width: 100vw;
+}
+.district_box{
+	width: 100vw;
+	height: 545px;
+	background-color: #000;
+}
+.back_to_top{
+	position: absolute;
+	font-size: 16px;
+	width: 150px;
+	height: 20px;
 }
 
 /* SideBar Style */
@@ -147,9 +170,11 @@ body{
 
 /* Footer */
 .footer {
+	width: 100vw;
+	height: 110px;
 	text-align: center;
 	font-size: 85%;
-	color: #999;
+	background-color: #000;
 	padding-bottom: 20px;
 	padding-top: 20px;
 }
