@@ -119,7 +119,7 @@ body{
 	position: absolute;
 	width: 200px;
 	height: 50px;
-	margin-top: 5vh;
+	margin-top: 4vh;
 	margin-left: 10vw;
 	text-align: center;
 	font-size: 36px;
@@ -128,6 +128,26 @@ body{
 	width: 100vw;
 	height: 450px;
 }
+
+.word_onimginside{
+	font-family: Arial ;
+	font-size: 48px;
+	color: #ffffff;
+}
+
+.word_readinside{
+	text-decoration: none;
+	color: #ffffff;
+	font-size: 18px;
+}
+
+.word_quote1{
+	width: 450px;
+	font-family: Arial ;
+	font-size: 36px;
+	color: #ffffff;
+}
+
 /* .three_finger_solute{
 	width: 450px;
 	height: 70px;
