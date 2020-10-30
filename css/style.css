@@ -137,6 +137,15 @@ body{
 .img_three_finger_solute{
 	width: 100vw;
 }
+
+.img_arrow{
+	display:flex;
+	position:relative;
+	vertical-align:middle;
+	justify-content:center;
+	margin-left: 45vw;
+}
+
 .img_quote_1{
 	width: 100vw;
 }
