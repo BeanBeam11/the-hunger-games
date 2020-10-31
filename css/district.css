@@ -26,14 +26,15 @@ body{
 /* Header Style */
 .header {
 	display: flex;
-   position: fixed;
-   top: 0;
+  position: fixed;
+  top: 0;
 	background-color: #000000;
 	height: 50px;
 	width: 100vw;
 	font-family: 'Roboto Mono', monospace, sans-serif;
 	font-size: 0.8em;
-	font-weight: 300;
+  font-weight: 300;
+  overflow: hidden;
 }
 
 .logo_img{

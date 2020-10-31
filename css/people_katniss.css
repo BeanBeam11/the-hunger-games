@@ -1,7 +1,7 @@
 /* GLobal Style */
 html {
 	background-color: #ffffff;
-	box-sizing: border-box;
+    box-sizing: border-box;
 }
 
 *,*:before,*:after {
@@ -34,7 +34,8 @@ body{
 	width: 100vw;
 	font-family: 'Roboto Mono', monospace, sans-serif;
 	font-size: 0.8em;
-	font-weight: 300;
+    font-weight: 300;
+    overflow: hidden;
 }
 
 .logo_img{
@@ -117,9 +118,13 @@ body{
     position: absolute;
 }
 .box_katniss_explain{
-    position: absolute;
-    width: 52vw;
-    height: 87vw;
+    /* position: absolute; */
+    width: 520px;
+    height: 870px;
     margin-top: 45px;
     margin-left: 45vw;
+}
+.img_bgi_black{
+    position: absolute;
+    overflow: hidden;
 }
