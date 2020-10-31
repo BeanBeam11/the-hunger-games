@@ -25,9 +25,10 @@ body{
 
 /* Header Style */
 .header {
+    z-index: 1;
 	display: flex;
-   position: fixed;
-   top: 0;
+    position: fixed;
+    top: 0;
 	background-color: #000000;
 	height: 50px;
 	width: 100vw;
@@ -91,3 +92,34 @@ body{
  */
 
  /* Content Style */
+ .content_area {
+    margin-top: 50px;
+    width: 100vw;
+ }
+ .bg_img {
+    position: absolute;
+    /* margin-top: 50px; */
+    width: 100vw;
+    height: 950px;
+    background-image: url(../img/role_katniss.png);
+    background-repeat: repeat;
+    background-size: 20vw auto;
+    opacity: 0.5;
+}
+.box_img_katniss_1{
+    position: absolute;
+    width: 30vw;
+    height: 55vh;
+    margin-top: 45px;
+    margin-left: 20vw;
+}
+.img_katniss_1 {
+    position: absolute;
+}
+.box_katniss_explain{
+    position: absolute;
+    width: 52vw;
+    height: 87vw;
+    margin-top: 45px;
+    margin-left: 45vw;
+}
