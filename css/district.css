@@ -62,13 +62,19 @@ body{
 
 .nav_list-item{
 	list-style: none;
-   width: 8vw;
+   width: 9vw;
    height: 50px;
-	line-height:20px;
-   text-align:center;
+	line-height: 20px;
+   text-align: center;
    outline: 1px solid #424242;
 }
-
+.icon_mockingjay{
+   position: absolute;
+   height: 20px;
+}
+.nav_span{
+   margin-left: 25px;
+}
 .nav_list_item_link{
 	display: block;
 	color: #ffffff;
