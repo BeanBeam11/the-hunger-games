@@ -31,7 +31,7 @@ body{
 	background-color: #000000;
 	height: 50px;
 	width: 100vw;
-	font-family: 'Roboto Mono', monospace;
+	font-family: 'Roboto Mono', monospace, sans-serif;
 	font-size: 0.8em;
 	font-weight: 300;
 }
@@ -53,6 +53,7 @@ body{
 }
 
 .nav_list {
+   min-width: 800px;
    display: flex;
    justify-content: flex-end;
    margin: 0;
@@ -91,54 +92,59 @@ body{
 
  /* Content Style */
  .img_map{
-    width: 100vw;
+   width: 100vw;
  }
  .box_map_explain{
-    position: fixed;
-    top: 50px;
-    right: 0;
-    width: 300px;
-    height: 100vh;
-    background-color: #fff;
+   position: fixed;
+   top: 50px;
+   right: 0;
+   width: 300px;
+   height: 100vh;
+   background-color: #fff;
  }
- .feature_district{
-    font-size: 24px;
-    width: 300px;
-    text-align: center;
-    margin-top: 25px;
+ .featured_district{
+   font-family: 'Roboto Mono', monospace, sans-serif;
+   font-size: 36px;
+   font-weight: 500;
+   width: 300px;
+   text-align: center;
+   margin-top: 25px;
  }
  .img_district_12{
-    position: absolute;
-    width: 300px;
-    margin-top: 50px;
+   position: absolute;
+   width: 300px;
+   margin-top: 50px;
  }
  .box_gray{
-    position: absolute;
-    width: 300px;
-    height: 100vh;
-    margin-top: 300px;
-    background-color: #d5d7db;
+   position: absolute;
+   width: 300px;
+   height: 100vh;
+   margin-top: 300px;
+   background-color: #d5d7db;
 }
  .word_map_12{
-    position: absolute;
-    font-size: 24px;
-    font-weight: bold;
-    margin-top: 30px;
-    margin-left: 50px;
+   position: absolute;
+   font-family: 'Barlow Condensed', sans-serif;
+   font-size: 2em;
+   font-weight: 400;
+   width: 300px;
+   text-align: center;
+   margin: 30px auto;
  }
  .btn_view_more{
-    position: absolute;
-    font-size: 16px;
-    color: #fff;
-    width: 100px;
-    height: 25px;
-    outline: 1px solid #fff;
-    text-align: center;
-    margin-top: 80px;
-    margin-left: 100px;
+   position: absolute;
+   font-family: 'Barlow Condensed', sans-serif;
+   font-size: 16px;
+   color: #fff;
+   width: 100px;
+   height: 25px;
+   outline: 1px solid #fff;
+   text-align: center;
+   margin-top: 80px;
+   margin-left: 100px;
  }
  .btn_view_more:hover{
-    color: #000;
-    outline: 1px solid #000;
+   color: #000;
+   outline: 1px solid #000;
  }
  
