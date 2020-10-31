@@ -175,11 +175,11 @@ body{
 	width: 100vw;
 	height: 500px;
 	background-color: #ffffff;
-	border: 3px solid #000;
+	border: 2px solid #000;
 }
 
 .img_katniss{
-	margin-left: 14vw;
+	margin-left: 17vw;
 }
 
 .word_katniss{
@@ -190,12 +190,12 @@ body{
 
 .peeta{
 	width: 25vw;
-	margin-left: 30px;
+	margin-left: 4vw;
 }
 
 .gale{
 	width: 25vw;
-	margin-left: 25vw;
+	margin-left: 20vw;
 }
 
 .vector{
@@ -213,7 +213,7 @@ body{
 	position:relative;
 	vertical-align:bottom;
 	justify-content:center;
-	margin-left: 45vw;
+	margin-left: 47.75vw;
 	display: inline-block;
 	position: relative;
 	margin-top: 48px;
@@ -222,8 +222,12 @@ body{
 .district_box{
 	width: 100vw;
 	height: 545px;
-	background-color: #000;
+	background-color: #ffffff;
+	border: 2px solid #000;
 }
+
+
+
 .back_to_top{
 	position: absolute;
 	font-size: 16px;
