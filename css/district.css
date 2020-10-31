@@ -108,6 +108,7 @@ body{
    width: 300px;
    height: 100vh;
    background-color: #fff;
+   opacity: 0.9;
  }
  .featured_district{
    font-family: 'Roboto Mono', monospace, sans-serif;
