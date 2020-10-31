@@ -170,6 +170,7 @@ body{
 	width: 100vw;
 }
 .people_box{
+	position:relative;
 	display: flex;
 	flex: auto;
 	width: 100vw;
@@ -180,9 +181,11 @@ body{
 
 .img_katniss{
 	margin-left: 17vw;
+	height: 100vh;
 }
 
 .word_katniss{
+	position:absolute;
 	font-size: 36px;
 	color: white;
 	vertical-align:bottom;
@@ -257,4 +260,9 @@ body{
 	background-color: #000;
 	padding-bottom: 20px;
 	padding-top: 20px;
+}
+.copyright{
+	text-align: center;
+	color: #ffffff;
+	font-size: 12px;
 }
