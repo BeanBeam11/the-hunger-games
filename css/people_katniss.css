@@ -109,13 +109,14 @@ body{
 }
 .box_img_katniss_1{
     position: absolute;
-    width: 30vw;
-    height: 55vh;
+    width: 400px;
+    height: 550px;
     margin-top: 45px;
     margin-left: 20vw;
 }
 .img_katniss_1 {
     position: absolute;
+    width: 340px;
 }
 .box_katniss_explain{
     position: absolute;
@@ -153,4 +154,20 @@ body{
 .explain_word{
     font-size: 24px;
     margin-top: 310px;
+}
+.box_katniss_2{
+    position: absolute;
+    display: flex;
+    width: 400px;
+    margin-top: 500px;
+    margin-left: 20vw;
+}
+.img_district_12{
+    width: 140px;
+    height: 180px;
+}
+.img_katniss_2{
+    margin-left: 10px;
+    width: 189px;
+    height: 270px;
 }
