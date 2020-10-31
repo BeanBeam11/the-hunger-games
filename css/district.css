@@ -93,6 +93,7 @@ body{
  /* Content Style */
  .img_map{
    width: 100vw;
+   min-width: 1920px;
  }
  .box_map_explain{
    position: fixed;
@@ -106,6 +107,7 @@ body{
    font-family: 'Roboto Mono', monospace, sans-serif;
    font-size: 36px;
    font-weight: 500;
+   /* height: 30px; */
    width: 300px;
    text-align: center;
    margin-top: 25px;
@@ -119,7 +121,7 @@ body{
    position: absolute;
    width: 300px;
    height: 100vh;
-   margin-top: 300px;
+   margin-top: 250px;
    background-color: #d5d7db;
 }
  .word_map_12{
@@ -140,7 +142,7 @@ body{
    height: 25px;
    outline: 1px solid #fff;
    text-align: center;
-   margin-top: 80px;
+   margin-top: 100px;
    margin-left: 100px;
  }
  .btn_view_more:hover{
