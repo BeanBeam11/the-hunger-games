@@ -116,12 +116,18 @@ body{
     background-size: 20vw auto;
     opacity: 0.5;
 }
+.box_content{
+    right: 0;
+    left: 0;
+    margin: auto;
+    width: 950px;
+}
 .box_img_katniss_1{
     position: absolute;
     width: 400px;
     height: 550px;
     margin-top: 45px;
-    margin-left: 20vw;
+    /* margin-left: 20vw; */
 }
 .img_katniss_1 {
     position: absolute;
@@ -132,7 +138,7 @@ body{
     width: 520px;
     height: 870px;
     margin-top: 45px;
-    margin-left: 45vw;
+    margin-left: 430px;
 }
 .img_bgi_black{
     position: absolute;
@@ -177,7 +183,7 @@ body{
     display: flex;
     width: 400px;
     margin-top: 500px;
-    margin-left: 20vw;
+    /* margin-left: 20vw; */
 }
 .img_district_12{
     width: 140px;
