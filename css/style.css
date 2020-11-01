@@ -229,7 +229,7 @@ body{
 .word_katniss{
 	z-index: 2;
 	position: absolute;
-	font-size: 36px;
+	font-size: 3rem;
 	color: #fff;
 	margin-top: 70vh;
 	margin-left: 30px;
@@ -251,10 +251,10 @@ body{
 .box_peeta{
 	width: 15vw;
 	height: 20vw;
-	margin-right: 2vw;
+	margin-right: 1.5vw;
 }
 .box_haymitch{
-	margin-right: 2vw;
+	margin-right: 1.5vw;
 }
 .img{
 	width: 15vw;
