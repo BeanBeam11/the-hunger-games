@@ -1,7 +1,7 @@
 /* GLobal Style */
 html {
 	background-color: #ffffff;
-	box-sizing: border-box;
+    box-sizing: border-box;
 }
 
 *,*:before,*:after {
@@ -20,7 +20,9 @@ body{
 } */
 
 .container {
-	background-color: #FFF;
+    background-color: #FFF;
+    height: 200vh;
+    overflow: hidden;
 }
 
 /* Header Style */
@@ -99,7 +101,7 @@ body{
  /* Content Style */
  .background{
     margin-top: 50px;
-    opacity: 0.8;
+    opacity: 0.5;
     font-size: 0;
 }
  .bgi{
@@ -107,23 +109,27 @@ body{
 }
  .box_people{
     position: absolute;
-    display: flex;
-    flex-wrap: nowrap;
     width: 35vw;
-    height: 2100px;
+    height: 200vh;
     background-color: #6e6e6e;
-    top: 50px;
+    top: 0;
     right: 0;
+    padding: 0;
 }
 .box_people_2{
     position: absolute;
-    width: 30vw;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 25vw;
     right: 0;
     left: 0;
     margin: auto;
+    margin-top: 85px;
 }
 .box{
-    margin: 45px 3vw 0 0;
+    margin-top: 15px;
+    font-size: 0;
 }
 .box_katniss{
     width: 12vw;
