@@ -97,6 +97,11 @@ body{
     margin-top: 50px;
     width: 100vw;
  }
+ .center {
+    right: 0;
+    left: 0;
+    margin: 0;
+ }
  .bg_img {
     position: absolute;
     /* margin-top: 50px; */
@@ -139,21 +144,29 @@ body{
     margin: auto;
     width: 400px;
 }
-.explain_name{
+.box_name{
+    position: absolute;
+    height: 60px;
+    margin-top: 50px;
     font-size: 48px;
-    margin-top: 70px;
 }
-.explain_quote{
-    font-size: 36px;
+.box_quote{
+    position: absolute;
+    height: 85px;
     margin-top: 152px;
+    font-size: 36px;
 }
-.explain_quote_name{
-    font-size: 16px;
+.box_quote_name{
+    position: absolute;
+    height: 20px;
     margin-top: 250px;
+    font-size: 16px;
 }
-.explain_word{
-    font-size: 24px;
+.box_word{
+    position: absolute;
+    height: 260px;
     margin-top: 310px;
+    font-size: 24px;
 }
 .box_katniss_2{
     position: absolute;
