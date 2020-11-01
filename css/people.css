@@ -105,3 +105,19 @@ body{
  .bgi{
     width: 100vw;
  }
+ .box_people{
+    width: 35vw;
+    height: 1000px;
+    background-color: #6e6e6e;
+    top: 50px;
+    right: 0;
+    position: fixed;
+ }
+.box_katniss{}
+.box_peeta{}
+.box_haymitch{}
+.box_gale{}
+.box_cinna{}
+.box_primrose{}
+.box_effie{}
+.box_finnick{}
