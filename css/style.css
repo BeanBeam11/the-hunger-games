@@ -121,7 +121,6 @@ body{
 }
 .white_box{
 	position: relative;
-	display: flex;
 	background-color: #fff;
 	width: 100vw;
 	height: 100px;
@@ -153,10 +152,9 @@ body{
 	margin-left: 18vw;
 	text-align: center;
 }
-.content_box{
-	width: 100vw;
-	height: 450px;
+.box_inside{
 	position: relative;
+	width: 100vw;
 }
 
 .word_onimginside{
