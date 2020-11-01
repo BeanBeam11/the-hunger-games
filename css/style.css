@@ -102,6 +102,7 @@ body{
 	background-color: #e5e9dc;
 }
  */
+ 
 /* Content Style */
 .content-area {
 	display: flex;
@@ -120,9 +121,17 @@ body{
 }
 .white_box{
 	position: relative;
+	display: flex;
 	background-color: #fff;
 	width: 100vw;
 	height: 100px;
+}
+.img_arrow{
+	position: absolute;
+	width: 4vw;
+	bottom: 0;
+	right: 0;
+	left: 0;
 }
 .btn_inside{
 	font-family: 'Barlow Condensed', sans-serif;
@@ -138,18 +147,25 @@ body{
 .content_box{
 	width: 100vw;
 	height: 450px;
+	position: relative;
 }
 
 .word_onimginside{
 	font-family: Arial ;
 	font-size: 48px;
 	color: #ffffff;
+	position: absolute;
+	left: 15vw; 
+	top: 20vh;
 }
 
 .word_readinside{
 	text-decoration: none;
 	color: #ffffff;
 	font-size: 18px;
+	position :absolute;
+	left: 16vw;
+	top: 35vh;
 }
 
 .word_quote1{
@@ -157,6 +173,10 @@ body{
 	font-family: Arial ;
 	font-size: 36px;
 	color: #ffffff;
+	position: absolute;
+	left: 15vw;
+	top: 35vh;
+	position: relative;
 }
 
 /* .three_finger_salute{
@@ -236,50 +256,21 @@ body{
 	width: 100%;
 }
 
-
-
-/* .people_box{
-	position:relative;
-	display: flex;
-	flex: auto;
-	width: 100vw;
-	height: 500px;
-	background-color: #ffffff;
-	border: 2px solid #000;
-}
-
-.img_katniss{
-	margin-left: 17vw;
-	height: 100vh;
-}
-
-.word_katniss{
-	position:absolute;
-	font-size: 36px;
-	color: white;
-	vertical-align:bottom;
-}
-
-.peeta{
-	width: 25vw;
-	margin-left: 4vw;
-}
-
-.gale{
-	width: 25vw;
-	margin-left: 20vw;
-}
-
-.vector{
-	display: inline-block;
-	vertical-align:bottom;
-	margin-right: 0vw;
-} */
-
 .img_quote_2{
 	width: 100vw;
 }
 
+.district_box{
+	width: 100vw;
+	height: 545px;
+	background-color: #ffffff;
+	display: block; 
+	margin: auto;
+}
+.img_district{
+	display: block; 
+	margin: auto;
+}
 .to_top{
 	display:flex;
 	position:relative;
@@ -290,18 +281,9 @@ body{
 	position: relative;
 	margin-top: 48px;
 }
-
-.district_box{
-	width: 100vw;
-	height: 545px;
-	background-color: #ffffff;
-	border: 2px solid #000;
-}
-
-
-
 .back_to_top{
 	position: absolute;
+	font-family: 'Barlow Condensed', sans-serif;
 	font-size: 16px;
 	width: 150px;
 	height: 20px;
@@ -326,12 +308,31 @@ body{
 	height: 110px;
 	text-align: center;
 	font-size: 85%;
-	background-color: #000;
+	background-color: #212121;
 	padding-bottom: 20px;
 	padding-top: 20px;
 }
-.copyright{
+.box_icon{
+	position: absolute;
+	display: flex;
+	width: 200px;
+	height: 40px;
+	right: 0;
+	left: 0;
+	margin: auto;
+}
+.icon{
+	position: relative;
+	margin: 0 10px;
+	width: 40px;
+}
+.box_copyright{
+	position: absolute;
+	width: 100vw;
 	text-align: center;
-	color: #ffffff;
+	margin-top: 55px;
+}
+.word_copyright{
+	color: #8a8174;
 	font-size: 12px;
 }
