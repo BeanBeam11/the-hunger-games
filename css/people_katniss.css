@@ -183,6 +183,9 @@ body{
     width: 140px;
     height: 180px;
 }
+.img_district_12:hover{
+    opacity: 0.5;
+}
 .img_katniss_2{
     margin-left: 10px;
     width: 189px;
