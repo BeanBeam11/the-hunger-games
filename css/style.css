@@ -208,6 +208,7 @@ body{
 	justify-content:center;
 	margin-left: 45vw;
 }
+/*quote 1*/
 .quote_1{
 	width: 100vw;
 	height: 450px;
@@ -215,6 +216,7 @@ body{
 .img_quote_1{
 	width: 100vw;
 }
+/* People */
 .box_people_area{
 	width: 100vw;
 	height: 600px;
@@ -281,6 +283,7 @@ body{
 .material-icons:hover{
 	opacity: 0.8;
 }
+/* quote 2*/
 .quote_2{
 	width: 100vw;
 	height: 450px;
