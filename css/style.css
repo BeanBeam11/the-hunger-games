@@ -219,58 +219,32 @@ body{
 	width: 100vw;
 	height: 600px;
 }
-.row {
+.box_people{
+	width: 900px;
+	height: 500px;
+	margin-left: 18vw;
+}
+.box_katniss{
+	position: absolute;
+	width: 350px;
+	height: 500px;
+}
+.img_katniss{
+	position: absolute;
+	width: 350px;
+	height: 500px;
+}
+.box_people_4{
+	position: absolute;
+	margin-left: 380px;
 	display: flex;
-	box-sizing: border-box;
-	align-items: stretch;
-	align-items: center;
-	width: 100%;
-	justify-content: center;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	width: 520px;
+	height: 500px;
 }
-
-/* .row_katniss{
-} */
-
-.row_PEETA{
-	height:50%;
-	margin-left: 8vw;
-}
-
-.row_gale{
-	margin-left: 5vw;
-}
-
-.word_katniss{
-	background: #fff;
-	margin: 0;
-	padding: 1em 0 1em 0;
-}
-
-.item {
-	box-shadow: 0 0.05em 0.15em 0 rgba(0, 0, 0, 0.05);
-	margin-bottom: 20px;
-}
-	.item header {
-		display: flex;
-		background: #fff;
-		margin: 0;
-		padding: 0em 0 0em 1.5em;
-		font-size: 0.8em;
-		background-color: #C4C4C4;
-	}
-
-		.item header h3 {
-			font-size: 1.5em;
-			text-align: left;
-		}
-
-		.item header img {
-			justify-content: flex-end;
-		}
-
-.image.fit {
-	display: block;
-	width: 100%;
+.img{
+	width: 235px;
 }
 .quote_2{
 	width: 100vw;
@@ -356,3 +330,51 @@ body{
 	color: #8a8174;
 	font-size: 12px;
 }
+
+/* WareHouse */
+
+/* .row {
+	display: flex;
+	box-sizing: border-box;
+	align-items: stretch;
+	align-items: center;
+	width: 100%;
+	justify-content: center;
+} */
+/* .row_katniss{
+} */
+/* .row_PEETA{
+	height:50%;
+	margin-left: 8vw;
+} */
+/* .row_gale{
+	margin-left: 5vw;
+} */
+/* .word_katniss{
+	background: #fff;
+	margin: 0;
+	padding: 1em 0 1em 0;
+} */
+/* .item {
+	box-shadow: 0 0.05em 0.15em 0 rgba(0, 0, 0, 0.05);
+	margin-bottom: 20px;
+} */
+/* .item header {
+	display: flex;
+	background: #fff;
+	margin: 0;
+	padding: 0em 0 0em 1.5em;
+	font-size: 0.8em;
+	background-color: #C4C4C4;
+} */
+/* .item header h3 {
+	font-size: 1.5em;
+	text-align: left;
+} */
+/* .item header img {
+	justify-content: flex-end;
+} */
+/* .image.fit {
+	display: block;
+	width: 100%;
+} */
