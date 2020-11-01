@@ -151,12 +151,13 @@ body{
 }
 
 .word_onimginside{
-	font-family: Arial ;
+	font-family:Times;
 	font-size: 48px;
 	color: #ffffff;
 	position: absolute;
 	left: 15vw; 
 	top: 20vh;
+	text-shadow: 0.1em 0.1em 0.05em #333;
 }
 
 .word_readinside{
@@ -166,17 +167,20 @@ body{
 	position :absolute;
 	left: 16vw;
 	top: 35vh;
+	font-family: Times;
+	text-shadow: 0.1em 0.1em 0.05em #333;
 }
 
 .word_quote1{
 	width: 450px;
-	font-family: Arial ;
+	font-family:Times;
 	font-size: 36px;
 	color: #ffffff;
 	position: absolute;
 	left: 15vw;
 	top: 35vh;
 	position: relative;
+	text-shadow: 0.1em 0.1em 0.05em #333;
 }
 
 /* .three_finger_salute{
