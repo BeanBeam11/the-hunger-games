@@ -62,10 +62,10 @@ body{
 }
 
 .nav_list-item{
-	list-style: none;
+	 list-style: none;
    width: 9vw;
    height: 50px;
-	line-height: 20px;
+	 line-height: 20px;
    text-align: center;
    outline: 1px solid #424242;
 }
@@ -84,7 +84,7 @@ body{
 	border-bottom: none;
 }
 
-.nav__list-item:hover > .nav__list-item-link {
+.nav_list-item:hover > .nav_list_item_link {
 	background-color: #6e6e6e;
 }
 

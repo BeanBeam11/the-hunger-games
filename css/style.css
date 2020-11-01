@@ -84,8 +84,8 @@ body{
 	border-bottom: none;
 }
 
-.nav__list-item:hover > .nav__list-item-link {
-	background-color: #6e6e6e;
+.nav_list-item:hover > .nav_list_item_link {
+	color: #6e6e6e;
 }
 
 .active-hover {
