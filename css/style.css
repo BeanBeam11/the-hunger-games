@@ -224,7 +224,7 @@ body{
 .box_katniss{
 	position: absolute;
 	width: 26vw;
-	height: 80vh;
+	/* height: 80vh; */
 }
 .word_katniss{
 	z-index: 2;
@@ -238,7 +238,7 @@ body{
 .img_katniss{
 	position: absolute;
 	width: 26vw;
-	height: 80vh;
+	/* height: 80vh; */
 }
 .box_people_4{
 	position: absolute;
