@@ -28,7 +28,7 @@ body{
 	display: flex;
   position: fixed;
   top: 0;
-	background-color: #000000;
+	background-color: #212121;
 	height: 50px;
 	width: 100vw;
 	font-family: 'Roboto Mono', monospace, sans-serif;
@@ -39,16 +39,14 @@ body{
 
 .logo_img{
 	position: relative;
-	width: 200px;
-	height: 25px;
-	margin-left: 9vw;
-	margin-top: 13px;
+	width: 180px;
+	margin-left: 10vw;
+	margin-top: 10px;
 }
 
 /* Navitation Bar Style */
 
 .float-nav{
-	background-color: #000000;
 	width: 100vw;
 	margin-right: 10vw;
 }
