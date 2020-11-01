@@ -243,19 +243,27 @@ body{
 	position: absolute;
 	margin-left: 28.5vw;
 	display: flex;
-	justify-content: space-between;
 	flex-wrap: wrap;
 	width: 520px;
 	height: 500px;
+	font-size: 0;
+}
+.box_peeta{
+	width: 15vw;
+	height: 20vw;
+	margin-right: 2vw;
+}
+.box_haymitch{
+	margin-right: 2vw;
 }
 .img{
-	width: 17vw;
+	width: 15vw;
 }
 .gray_box{
 	position: absolute;
-    width: 12vw;
+    width: 15vw;
     height: 3.5vw;
-    background-color: #8a8174;
+	background-color: #8a8174;
 }
 .box_name{
     position: absolute;
@@ -285,6 +293,7 @@ body{
 .img_quote_2{
 	width: 100vw;
 }
+/* District */
 .district_box{
 	width: 100vw;
 	height: 75vh;
