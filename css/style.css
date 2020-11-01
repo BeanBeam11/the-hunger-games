@@ -217,31 +217,31 @@ body{
 	height: 80vh;
 }
 .box_people{
-	width: 900px;
-	height: 500px;
+	width: 60vw;
+	height: 80vh;
 	margin-left: 18vw;
 }
 .box_katniss{
 	position: absolute;
-	width: 350px;
-	height: 500px;
+	width: 26vw;
+	height: 80vh;
 }
 .word_katniss{
 	z-index: 2;
 	position: absolute;
 	font-size: 36px;
 	color: #fff;
-	margin-top: 430px;
+	margin-top: 70vh;
 	margin-left: 30px;
 }
 .img_katniss{
 	position: absolute;
-	width: 350px;
-	height: 500px;
+	width: 26vw;
+	height: 80vh;
 }
 .box_people_4{
 	position: absolute;
-	margin-left: 380px;
+	margin-left: 28.5vw;
 	display: flex;
 	justify-content: space-between;
 	flex-wrap: wrap;
@@ -249,10 +249,10 @@ body{
 	height: 500px;
 }
 .img{
-	width: 235px;
+	width: 17vw;
 }
 .gray_box{
-    position: absolute;
+	position: absolute;
     width: 12vw;
     height: 3.5vw;
     background-color: #8a8174;
@@ -287,7 +287,7 @@ body{
 }
 .district_box{
 	width: 100vw;
-	height: 545px;
+	height: 75vh;
 	background-color: #ffffff;
 	display: block; 
 	margin: auto;
