@@ -33,7 +33,7 @@ body{
 	width: 100vw;
 	font-family: 'Roboto Mono', monospace, sans-serif;
 	font-size: 0.8em;
-  font-weight: 300;
+  font-weight: 400;
   overflow: hidden;
 }
 
@@ -76,14 +76,14 @@ body{
 }
 .nav_list_item_link{
 	display: block;
-	color: #ffffff;
+	color: #8a8174;
 	text-decoration: none;
 	padding: 15px 0px;
 	border-bottom: none;
 }
 
 .nav_list-item:hover > .nav_list_item_link {
-	background-color: #6e6e6e;
+  background-color: #6e6e6e;
 }
 
 .active-hover {
