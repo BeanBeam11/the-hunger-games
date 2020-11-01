@@ -25,6 +25,7 @@ body{
 
 /* Header Style */
 .header {
+    z-index: 1;
 	display: flex;
     position: fixed;
     top: 0;
@@ -96,4 +97,11 @@ body{
  */
 
  /* Content Style */
- 
+ .background{
+    margin-top: 50px;
+    opacity: 0.8;
+    font-size: 0;
+ }
+ .bgi{
+    width: 100vw;
+ }
