@@ -31,61 +31,67 @@ body{
 }
 
 /* Header Style */
+/* Header Style */
 .header {
 	display: flex;
-	position: absolute;/* 
-	padding-top: 15px;
-	padding-bottom: 15px; */
-	background-color: #000000;
+  position: fixed;
+  top: 0;
+	background-color: #212121;
 	height: 50px;
 	width: 100vw;
-	font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-	font-size: 16px;
-	font-weight: 100%;
+	font-family: 'Roboto Mono', monospace, sans-serif;
+	font-size: 0.8em;
+  font-weight: 400;
+  overflow: hidden;
 }
 
 .logo_img{
 	position: relative;
-	width: 200px;
-	height: 25px;
-	margin-left: 9vw;
-	margin-top: 13px;
+	width: 180px;
+	margin-left: 10vw;
+	margin-top: 10px;
 }
 
 /* Navitation Bar Style */
 
 .float-nav{
-	background-color: #000000;
 	width: 100vw;
-	display: flex;
-	float: right;
-	margin-left: 35vw;
+	margin-right: 10vw;
 }
 
 .nav_list {
-	display: flex;
-	margin: 0;
-	padding: 0;
+   min-width: 800px;
+   display: flex;
+   justify-content: flex-end;
+   margin: 0;
+   padding: 0;
 }
 
 .nav_list-item{
-	list-style: none;
-	margin-right: 2vw;
-	margin-left: 2vw;
-	line-height:20px;
-	text-align:center;
+	 list-style: none;
+   width: 9vw;
+   height: 50px;
+	 line-height: 20px;
+   text-align: center;
+   outline: 1px solid #424242;
 }
-
+.icon_mockingjay{
+   position: absolute;
+   height: 20px;
+}
+.nav_span{
+   margin-left: 25px;
+}
 .nav_list_item_link{
 	display: block;
-	color: #ffffff;
+	color: #8a8174;
 	text-decoration: none;
 	padding: 15px 0px;
 	border-bottom: none;
 }
 
 .nav_list-item:hover > .nav_list_item_link {
-	color: #6e6e6e;
+  background-color: #6e6e6e;
 }
 
 .active-hover {
@@ -96,7 +102,6 @@ body{
 	background-color: #e5e9dc;
 }
  */
-
 /* Content Style */
 .content-area {
 	display: flex;
