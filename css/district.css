@@ -25,6 +25,7 @@ body{
 
 /* Header Style */
 .header {
+  z-index: 1;
 	display: flex;
   position: fixed;
   top: 0;
