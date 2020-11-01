@@ -181,15 +181,14 @@ body{
 }
 
 .word_quote1{
+	position: absolute;
 	width: 450px;
 	font-family:Times;
 	font-size: 36px;
 	color: #ffffff;
-	position: absolute;
-	left: 15vw;
-	top: 35vh;
-	position: relative;
 	text-shadow: 0.1em 0.1em 0.05em #333;
+	margin-left: 18vw;
+	margin-top: 200px;
 }
 
 /* .three_finger_salute{
@@ -209,11 +208,17 @@ body{
 	justify-content:center;
 	margin-left: 45vw;
 }
-
+.quote_1{
+	width: 100vw;
+	height: 450px;
+}
 .img_quote_1{
 	width: 100vw;
 }
-
+.box_people_area{
+	width: 100vw;
+	height: 600px;
+}
 .row {
 	display: flex;
 	box-sizing: border-box;
@@ -245,7 +250,6 @@ body{
 	box-shadow: 0 0.05em 0.15em 0 rgba(0, 0, 0, 0.05);
 	margin-bottom: 20px;
 }
-
 	.item header {
 		display: flex;
 		background: #fff;
@@ -268,7 +272,10 @@ body{
 	display: block;
 	width: 100%;
 }
-
+.quote_2{
+	width: 100vw;
+	height: 450px;
+}
 .img_quote_2{
 	width: 100vw;
 }
