@@ -68,12 +68,12 @@ body{
 }
 
 .nav_list-item{
-	 list-style: none;
-   width: 9vw;
-   height: 50px;
-	 line-height: 20px;
-   text-align: center;
-   outline: 1px solid #424242;
+	list-style: none;
+    width: 9vw;
+    height: 50px;
+	line-height: 20px;
+    text-align: center;
+    outline: 1px solid #424242;
 }
 .icon_mockingjay{
    position: absolute;
@@ -91,7 +91,7 @@ body{
 }
 
 .nav_list-item:hover > .nav_list_item_link {
-  background-color: #6e6e6e;
+    background-color: #6e6e6e;
 }
 
 .active-hover {
@@ -126,12 +126,21 @@ body{
 	width: 100vw;
 	height: 100px;
 }
-.img_arrow{
+.img_arrow_down{
 	position: absolute;
 	width: 4vw;
 	bottom: 0;
 	right: 0;
 	left: 0;
+	margin: auto;
+}
+.img_arrow_top{
+	position: absolute;
+	width: 4vw;
+	bottom: 0;
+	right: 0;
+	left: 0;
+	margin: auto;
 }
 .btn_inside{
 	font-family: 'Barlow Condensed', sans-serif;
@@ -273,25 +282,25 @@ body{
 }
 .to_top{
 	display:flex;
-	position:relative;
+	/* position:relative;
 	vertical-align:bottom;
 	justify-content:center;
 	margin-left: 47.75vw;
 	display: inline-block;
 	position: relative;
-	margin-top: 48px;
+	margin-top: 48px; */
 }
 .back_to_top{
 	position: absolute;
 	font-family: 'Barlow Condensed', sans-serif;
-	font-size: 16px;
+	font-size: 1.5rem;
 	width: 150px;
 	height: 20px;
 	text-align: center;
 	display: block;
-	margin-left: 50px;
-	margin-top: 20px;
-	color: black;
+	margin-left: 52vw;
+	margin-top: 60px;
+	color:  #212121;
 }
 
 /* SideBar Style */
@@ -315,7 +324,7 @@ body{
 .box_icon{
 	position: absolute;
 	display: flex;
-	width: 200px;
+	width: 160px;
 	height: 40px;
 	right: 0;
 	left: 0;
