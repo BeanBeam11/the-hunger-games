@@ -229,6 +229,14 @@ body{
 	width: 350px;
 	height: 500px;
 }
+.word_katniss{
+	z-index: 2;
+	position: absolute;
+	font-size: 36px;
+	color: #fff;
+	margin-top: 430px;
+	margin-left: 30px;
+}
 .img_katniss{
 	position: absolute;
 	width: 350px;
@@ -245,6 +253,33 @@ body{
 }
 .img{
 	width: 235px;
+}
+.gray_box{
+    position: absolute;
+    width: 12vw;
+    height: 3.5vw;
+    background-color: #8a8174;
+}
+.box_name{
+    position: absolute;
+    color: #fff;
+    width: 8vw;
+    height: 3.5vw;
+    font-size: 1.8rem;
+    font-family: 'Barlow Condensed', sans-serif;
+    margin-top: 0.35vw;
+    margin-left: 0.2vw;
+    text-align: center;
+}
+.material-icons{
+    position: absolute;
+    width: 3.5vw;
+    height: 3.5vw;
+    right: 0;
+    opacity: 0.5;
+}
+.material-icons:hover{
+	opacity: 0.8;
 }
 .quote_2{
 	width: 100vw;
