@@ -101,23 +101,75 @@ body{
     margin-top: 50px;
     opacity: 0.8;
     font-size: 0;
- }
+}
  .bgi{
     width: 100vw;
- }
+}
  .box_people{
+    position: absolute;
+    display: flex;
+    flex-wrap: nowrap;
     width: 35vw;
-    height: 1000px;
+    height: 2100px;
     background-color: #6e6e6e;
     top: 50px;
     right: 0;
-    position: fixed;
- }
-.box_katniss{}
-.box_peeta{}
-.box_haymitch{}
-.box_gale{}
-.box_cinna{}
-.box_primrose{}
-.box_effie{}
-.box_finnick{}
+}
+.box_people_2{
+    position: absolute;
+    width: 30vw;
+    right: 0;
+    left: 0;
+    margin: auto;
+}
+.box{
+    margin: 45px 3vw 0 0;
+}
+.box_katniss{
+    width: 12vw;
+}
+.img_katniss{
+    width: 12vw;
+}
+.box_peeta{
+    width: 12vw;
+}
+.img_peeta{
+    width: 12vw;
+}
+.box_haymitch{
+    width: 12vw;
+}
+.img_haymitch{
+    width: 12vw;
+}
+.box_gale{
+    width: 12vw;
+}
+.img_gale{
+    width: 12vw;
+}
+.box_cinna{
+    width: 12vw;
+}
+.img_cinna{
+    width: 12vw;
+}
+.box_primrose{
+    width: 12vw;
+}
+.img_primrose{
+    width: 12vw;
+}
+.box_effie{
+    width: 12vw;
+}
+.img_effie{
+    width: 12vw;
+}
+.box_finnick{
+    width: 12vw;
+}
+.img_finnick{
+    width: 12vw;
+}
