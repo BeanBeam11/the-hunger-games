@@ -217,7 +217,7 @@ body{
 	height: 80vh;
 }
 .box_people{
-	width: 60vw;
+	width: 64vw;
 	height: 80vh;
 	margin-left: 18vw;
 }
@@ -245,7 +245,7 @@ body{
 	margin-left: 28.5vw;
 	display: flex;
 	flex-wrap: wrap;
-	width: 520px;
+	width: 35vw;
 	height: 500px;
 	font-size: 0;
 }
