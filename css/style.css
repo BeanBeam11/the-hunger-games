@@ -178,17 +178,6 @@ body{
 	text-shadow: 0.1em 0.1em 0.05em #333;
 }
 
-.word_quote1{
-	position: absolute;
-	width: 450px;
-	font-family:Times;
-	font-size: 36px;
-	color: #ffffff;
-	text-shadow: 0.1em 0.1em 0.05em #333;
-	margin-left: 18vw;
-	margin-top: 200px;
-}
-
 /* .three_finger_salute{
 	width: 450px;
 	height: 70px;
@@ -198,7 +187,6 @@ body{
 .img_three_finger_salute{
 	width: 100vw;
 }
-
 .img_arrow{
 	display:flex;
 	position:relative;
@@ -209,7 +197,16 @@ body{
 /*quote 1*/
 .quote_1{
 	width: 100vw;
-	height: 450px;
+}
+.word_quote1{
+	position: absolute;
+	width: 450px;
+	font-family:Times;
+	font-size: 36px;
+	color: #ffffff;
+	text-shadow: 0.1em 0.1em 0.05em #333;
+	margin-left: 18vw;
+	margin-top: 200px;
 }
 .img_quote_1{
 	width: 100vw;
@@ -217,7 +214,7 @@ body{
 /* People */
 .box_people_area{
 	width: 100vw;
-	height: 600px;
+	height: 80vh;
 }
 .box_people{
 	width: 900px;
@@ -284,12 +281,10 @@ body{
 /* quote 2*/
 .quote_2{
 	width: 100vw;
-	height: 450px;
 }
 .img_quote_2{
 	width: 100vw;
 }
-
 .district_box{
 	width: 100vw;
 	height: 545px;
