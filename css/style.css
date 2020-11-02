@@ -162,7 +162,7 @@ body{
 	font-size: 48px;
 	color: #ffffff;
 	position: absolute;
-	left: 15vw; 
+	left: 18vw; 
 	top: 20vh;
 	text-shadow: 0.1em 0.1em 0.05em #333;
 }
@@ -172,10 +172,14 @@ body{
 	color: #ffffff;
 	font-size: 18px;
 	position :absolute;
-	left: 16vw;
-	top: 35vh;
-	font-family: Times;
-	text-shadow: 0.1em 0.1em 0.05em #333;
+	left: 18vw;
+	top: 36vh;
+	width: 150px;
+	height: 25px;
+	text-align: center;
+	outline: 1px solid #fff;
+	font-family: 'Barlow Condensed', sans-serif;
+	/* text-shadow: 0.1em 0.1em 0.05em #333; */
 }
 
 /* .three_finger_salute{
@@ -232,7 +236,7 @@ body{
 	font-family: 'Barlow Condensed', sans-serif;
 	font-size: 3rem;
 	color: #fff;
-	margin-top: 70vh;
+	margin-top: 60vh;
 	margin-left: 30px;
 }
 .img_katniss{
