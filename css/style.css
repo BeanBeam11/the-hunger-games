@@ -157,6 +157,12 @@ body{
 	left: 0;
 	margin: auto;
 }
+.img_arrow_down:hover{
+	opacity: 0.8;
+}
+.img_arrow_top:hover{
+	opacity: 0.8;
+}
 .btn_inside{
 	font-family: 'Barlow Condensed', sans-serif;
 	position: absolute;
@@ -175,7 +181,7 @@ body{
 
 .word_onimginside{
 	font-family:Times;
-	font-size: 48px;
+	font-size: 3rem;
 	color: #ffffff;
 	position: absolute;
 	left: 18vw; 
@@ -196,6 +202,9 @@ body{
 	outline: 1px solid #fff;
 	font-family: 'Barlow Condensed', sans-serif;
 	/* text-shadow: 0.1em 0.1em 0.05em #333; */
+}
+.word_readinside:hover{
+	opacity: 0.5;
 }
 
 /* .three_finger_salute{
@@ -254,6 +263,9 @@ body{
 	color: #fff;
 	margin-top: 65vh;
 	margin-left: 5vw;
+}
+.word_katniss:hover{
+	opacity: 0.5;
 }
 .img_katniss{
 	position: absolute;
