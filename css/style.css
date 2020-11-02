@@ -204,13 +204,13 @@ body{
 }
 .word_quote1{
 	position: absolute;
-	width: 450px;
+	width: 30vw;
 	font-family:Times;
-	font-size: 36px;
+	font-size: 3rem;
 	color: #ffffff;
 	text-shadow: 0.1em 0.1em 0.05em #333;
 	margin-left: 18vw;
-	margin-top: 200px;
+	margin-top: 18vw;
 }
 .img_quote_1{
 	width: 100vw;
