@@ -111,6 +111,22 @@ body{
 }
 
 /* Main-Area Style */
+.box_icon_dots{
+	display: flex;
+	flex-direction: column;
+	z-index: 1;
+	font-size: 0;
+	position: fixed;
+	right: 1.5vw;
+	top: 40vh;
+}
+.icon_dots{
+	width: 1vw;
+	margin-top: 1vw;
+}
+.icon_dots:hover{
+	opacity: 0.5;
+}
 .main-area {
 	width: 66%;
 	padding-right: 40px;
