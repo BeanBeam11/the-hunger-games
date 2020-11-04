@@ -350,14 +350,14 @@ body{
 /* District */
 .district_box{
 	width: 100vw;
-	height: 75vh;
+	height: 80vh;
 	background-color: #ffffff;
 	display: block; 
 	margin: auto;
 }
 .img_district{
 	display: block; 
-	height: 75vh;
+	height: 80vh;
 	margin: auto;
 }
 .to_top{
