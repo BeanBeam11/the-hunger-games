@@ -61,12 +61,12 @@ body{
 }
 
 .nav_list-item{
-	 list-style: none;
-   width: 9vw;
-   height: 50px;
-	 line-height: 20px;
-   text-align: center;
-   outline: 1px solid #424242;
+	list-style: none;
+    width: 9vw;
+    height: 50px;
+	line-height: 20px;
+    text-align: center;
+    outline: 1px solid #424242;
 }
 .icon_mockingjay{
    position: absolute;
@@ -98,8 +98,10 @@ body{
 
  /* Content Style */
  .content_area {
+    position: absolute;
     margin-top: 50px;
     width: 100vw;
+    display: block;
  }
  .center {
     right: 0;
@@ -113,13 +115,22 @@ body{
     margin: auto;
  }
 .box_img_bgi{
+    position: absolute;
+    display: block;
     width: 100vw;
+    font-size: 0;
 }
 .img_bgi{
-    position: absolute;
+    position: relative;
     width: 100vw;
     background-color: #000;
     opacity: 0.8;
+}
+.img_bgi_2{
+    position: relative;
+    width: 100vw;
+    background-color: #000;
+    opacity: 0.85;
 }
 .box_books{
     position: absolute;
@@ -131,7 +142,6 @@ body{
     justify-content: space-between;
 }
 .img{
-    z-index: 1;
     position: absolute;
     width: 15vw;
 }
