@@ -1,0 +1,199 @@
+/* GLobal Style */
+html {
+	background-color: #ffffff;
+    box-sizing: border-box;
+}
+
+*,*:before,*:after {
+	box-sizing: inherit;
+}
+
+body{
+    min-width: 320px;
+    padding: 0;
+    margin: 0;
+}
+
+/* html, body{
+	max-width: 100%;
+	min-height: 100%;
+} */
+
+.container {
+	background-color: #FFF;
+}
+
+/* Header Style */
+.header {
+    z-index: 1;
+	display: flex;
+    position: fixed;
+    top: 0;
+	background-color: #212121;
+	height: 50px;
+	width: 100vw;
+	font-family: 'Roboto Mono', monospace, sans-serif;
+	font-size: 0.8em;
+    font-weight: 400;
+    overflow: hidden;
+}
+
+.logo_img{
+	position: relative;
+	width: 180px;
+	margin-left: 10vw;
+	margin-top: 10px;
+}
+
+/* Navitation Bar Style */
+
+.float-nav{
+	width: 100vw;
+	margin-right: 10vw;
+}
+
+.nav_list {
+   min-width: 800px;
+   display: flex;
+   justify-content: flex-end;
+   margin: 0;
+   padding: 0;
+}
+
+.nav_list-item{
+	 list-style: none;
+   width: 9vw;
+   height: 50px;
+	 line-height: 20px;
+   text-align: center;
+   outline: 1px solid #424242;
+}
+.icon_mockingjay{
+   position: absolute;
+   height: 20px;
+}
+.nav_span{
+   margin-left: 25px;
+}
+.nav_list_item_link{
+	display: block;
+	color: #8a8174;
+	text-decoration: none;
+	padding: 15px 0px;
+	border-bottom: none;
+}
+
+.nav_list-item:hover > .nav_list_item_link {
+  background-color: #6e6e6e;
+}
+
+.active-hover {
+	background-color: #6e6e6e;
+}
+
+/* .nav-list-item-link:hover {
+	background-color: #e5e9dc;
+}
+ */
+
+ /* Content Style */
+ .content_area {
+    margin-top: 50px;
+    width: 100vw;
+ }
+ .center {
+    right: 0;
+    left: 0;
+    margin: 0;
+ }
+ .bg_img {
+    position: absolute;
+    /* margin-top: 50px; */
+    width: 100vw;
+    height: 950px;
+    background-image: url(../img/role7.png);
+    background-repeat: repeat;
+    background-size: 20vw auto;
+    opacity: 0.5;
+}
+.box_content{
+    right: 0;
+    left: 0;
+    margin: auto;
+    width: 950px;
+}
+.box_img_katniss_1{
+    position: absolute;
+    width: 400px;
+    height: 550px;
+    margin-top: 45px;
+    /* margin-left: 20vw; */
+}
+.img_katniss_1 {
+    position: absolute;
+    width: 340px;
+}
+.box_katniss_explain{
+    position: absolute;
+    width: 520px;
+    height: 870px;
+    margin-top: 45px;
+    margin-left: 415px;
+}
+.img_bgi_black{
+    position: absolute;
+    /* overflow: hidden; */
+}
+.explain{
+    position: absolute;
+    color: #fff;
+    font-family: 'Barlow Condensed', sans-serif;
+    text-align: center;
+    right: 0;
+    left: 0;
+    margin: auto;
+    width: 400px;
+}
+.box_name{
+    position: absolute;
+    height: 60px;
+    margin-top: 50px;
+    font-size: 48px;
+}
+.box_quote{
+    position: absolute;
+    height: 85px;
+    margin-top: 152px;
+    font-size: 36px;
+}
+.box_quote_name{
+    position: absolute;
+    height: 20px;
+    margin-top: 250px;
+    font-size: 16px;
+}
+.box_word{
+    position: absolute;
+    height: 260px;
+    margin-top: 310px;
+    font-size: 24px;
+}
+.box_katniss_2{
+    position: absolute;
+    display: flex;
+    width: 400px;
+    margin-top: 500px;
+    /* margin-left: 20vw; */
+}
+.img_district_12{
+    width: 140px;
+    height: 180px;
+}
+.img_district_12:hover{
+    opacity: 0.5;
+}
+.img_katniss_2{
+    margin-left: 10px;
+    width: 189px;
+    height: 270px;
+}
