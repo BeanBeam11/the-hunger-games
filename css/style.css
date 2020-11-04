@@ -385,8 +385,8 @@ body{
 
 /* Galleries */
 .galleries_box{
-	width: 100vw;
-	height: 75vh;
+	width: 62vw;
+	/* height: 75vh; */
 	background-color: #ffffff;
 	display: block; 
 	margin: auto;
