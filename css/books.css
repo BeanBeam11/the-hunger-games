@@ -106,6 +106,12 @@ body{
     left: 0;
     margin: 0;
  }
+ .box_center{
+    position: absolute;
+    right: 0;
+    left: 0;
+    margin: auto;
+ }
 .box_img_bgi{
     width: 100vw;
 }
@@ -114,4 +120,26 @@ body{
     width: 100vw;
     background-color: #000;
     opacity: 0.8;
+}
+.box_books{
+    position: absolute;
+    margin-top: 100px;
+    margin-left: 22vw;
+    width: 55vw;
+    display: flex;
+    justify-content: space-between;
+}
+.img{
+    z-index: 1;
+    position: absolute;
+    width: 18vw;
+}
+.book_1{
+
+}
+.book_2{
+
+}
+.book_3{
+
 }
