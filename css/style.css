@@ -141,6 +141,13 @@ body{
 	width: 100vw;
 	height: 100px;
 }
+.black_box{
+	position: relative;
+	background-color: #ffffff;
+	border: 1px solid #e5e5e5;
+	width: 100vw;
+	height: 100px;
+}
 .img_arrow_down{
 	position: absolute;
 	width: 4vw;
@@ -165,6 +172,18 @@ body{
 }
 .btn_inside{
 	font-family: 'Barlow Condensed', sans-serif;
+	position: absolute;
+	font-size: 3.5rem;
+	font-weight: 500;
+	width: 200px;
+	height: 50px;
+	margin-top: 12px;
+	margin-left: 18vw;
+	text-align: center;
+}
+.btn_inside_black{
+	font-family: 'Barlow Condensed', sans-serif;
+	color: #000000;
 	position: absolute;
 	font-size: 3.5rem;
 	font-weight: 500;
@@ -362,6 +381,15 @@ body{
 	margin-left: 52vw;
 	margin-top: 60px;
 	color:  #212121;
+}
+
+/* Galleries */
+.galleries_box{
+	width: 100vw;
+	height: 75vh;
+	background-color: #ffffff;
+	display: block; 
+	margin: auto;
 }
 
 /* SideBar Style */

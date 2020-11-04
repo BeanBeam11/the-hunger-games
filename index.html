@@ -9,6 +9,8 @@
 	<link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+TC:wght@200;300;400;500;600;700;900&display=swap" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="slick/slick.css"/>	
+	<link rel="stylesheet" type="text/css" href="slick/slick-theme.css"/>
 </head>
 
 <body>
@@ -138,13 +140,21 @@
 				<img class="img_district" src="img/district.png" alt="district">
 			</a>
 		</div>
+		<div class="black_box" id="dots_4">
+			<div class="btn_inside_black">GALLERIES</div>
+		</div>
+		<div class="galleries_box quote_2">
+			<div class="galleries">
+				<img class="img_three_finger_salute" src="img/quote_2_1_copy.png" alt="district">
+				<img class="img_three_finger_salute" src="img/quote_1_version2.jpg" alt="quote_1">
+			</div>
+		</div>
 		<div class="white_box">
 			<a href="#" class="to_top">
 				<div class="back_to_top">BACK TO TOP</div>
 				<img class="img_arrow_top" src="img/icon_arrow_copy.png" alt="arrow">
 			</a>
 		</div>
-		
 		<div class="footer">
 			<div class="box_icon">
 				<a target="_blank" href="https://www.instagram.com/thehungergames/?hl=en"><img class="icon" src="img/icon_instagram.png" alt="instagram"></a>
@@ -156,22 +166,19 @@
 			</div>
 		</div>
 	</div>	
-	<!-- /* Every time the window is scrolled ... */
-	$(window).scroll( function(){
+	<script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+	<script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+	<script type="text/javascript" src="slick/slick.min.js"></script>
+	<script type="text/javascript">
+		$('.galleries').slick({
+		dots: true,
+		infinite: true,
+		speed: 500,
+		fade: true,
+		cssEase: 'linear'
+	  });
+	  </script>	
 	
-		/* Check the location of each desired element */
-		$('.hideme').each( function(i){
-	
-			var bottom_of_object = $(this).offset().top + $(this).outerHeight();
-			var bottom_of_window = $(window).scrollTop() + $(window).height();
-	
-			/* If the object is completely visible in the window, fade it it */
-			if( bottom_of_window > bottom_of_object ){
-	
-				$(this).velocity('transition.slideUpIn', { stagger: 700 }).delay(1000)     
-			}
-		}); 
-	}); -->
 </body>
 
 </html>
