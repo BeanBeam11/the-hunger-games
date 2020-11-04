@@ -125,14 +125,15 @@ body{
     position: absolute;
     margin-top: 100px;
     margin-left: 22vw;
-    width: 55vw;
+    width: 45vw;
     display: flex;
+    flex-wrap: nowrap;
     justify-content: space-between;
 }
 .img{
     z-index: 1;
     position: absolute;
-    width: 18vw;
+    width: 15vw;
 }
 .book_1{
 
