@@ -111,7 +111,7 @@ body{
     /* margin-top: 50px; */
     width: 100vw;
     height: 950px;
-    background-image: url(../img/role5.png);
+    background-image: url(../img/role6.png);
     background-repeat: repeat;
     background-size: 20vw auto;
     opacity: 0.5;
@@ -169,13 +169,13 @@ body{
 .box_quote_name{
     position: absolute;
     height: 20px;
-    margin-top: 280px;
+    margin-top: 300px;
     font-size: 16px;
 }
 .box_word{
     position: absolute;
     height: 260px;
-    margin-top: 340px;
+    margin-top: 360px;
     font-size: 24px;
 }
 .box_katniss_2{
