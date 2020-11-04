@@ -148,7 +148,7 @@
 						<img class="img img_gale" src="img/people_gale.jpg" alt="gale">
 						<div class="gray_box">
 							<div class="box_name" >GALE</div>
-							<a href="people_katniss.html"><img class="material-icons" src="img/plus_box.png" alt="plus box"></a>                    
+							<a href="people_gale.html"><img class="material-icons" src="img/plus_box.png" alt="plus box"></a>                    
 						</div>
 					</div>
 					<div class="box_haymitch">
@@ -201,6 +201,22 @@
 			</div>
 		</div>
 	</div>	
+	/* Every time the window is scrolled ... */
+	$(window).scroll( function(){
+	
+		/* Check the location of each desired element */
+		$('.hideme').each( function(i){
+	
+			var bottom_of_object = $(this).offset().top + $(this).outerHeight();
+			var bottom_of_window = $(window).scrollTop() + $(window).height();
+	
+			/* If the object is completely visible in the window, fade it it */
+			if( bottom_of_window > bottom_of_object ){
+	
+				$(this).velocity('transition.slideUpIn', { stagger: 700 }).delay(1000)     
+			}
+		}); 
+	});
 </body>
 
 </html>
