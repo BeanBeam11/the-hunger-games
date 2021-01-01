@@ -1,7 +1,9 @@
+/* Web version */
 /* GLobal Style */
 html {
 	background-color: #ffffff;
 	box-sizing: border-box;
+	font-size: 24px;
 }
 
 *,*:before,*:after {
@@ -40,7 +42,7 @@ body{
 	height: 50px;
 	width: 100vw;
 	font-family: 'Roboto Mono', monospace, sans-serif;
-	font-size: 0.8em;
+	font-size: 0.53rem;
   	font-weight: 400;
   	overflow: hidden;
 }
@@ -98,11 +100,6 @@ body{
 	background-color: #6e6e6e;
 }
 
-/* .nav-list-item-link:hover {
-	background-color: #e5e9dc;
-}
- */
- 
 /* Content Style */
 .content-area {
 	display: flex;
@@ -173,7 +170,7 @@ body{
 .btn_inside{
 	font-family: 'Barlow Condensed', sans-serif;
 	position: absolute;
-	font-size: 3.5rem;
+	font-size: 2.3rem;
 	font-weight: 500;
 	width: 200px;
 	height: 50px;
@@ -185,7 +182,7 @@ body{
 	font-family: 'Barlow Condensed', sans-serif;
 	color: #000000;
 	position: absolute;
-	font-size: 3.5rem;
+	font-size: 2.3rem;
 	font-weight: 500;
 	width: 200px;
 	height: 50px;
@@ -200,7 +197,7 @@ body{
 
 .word_onimginside{
 	font-family:Times;
-	font-size: 3rem;
+	font-size: 2rem;
 	color: #ffffff;
 	position: absolute;
 	left: 18vw; 
@@ -211,7 +208,7 @@ body{
 .word_readinside{
 	text-decoration: none;
 	color: #ffffff;
-	font-size: 18px;
+	font-size: 0.75rem;
 	position :absolute;
 	left: 18vw;
 	top: 36vh;
@@ -250,7 +247,7 @@ body{
 	position: absolute;
 	width: 30vw;
 	font-family:Times;
-	font-size: 3rem;
+	font-size: 2rem;
 	color: #ffffff;
 	text-shadow: 0.1em 0.1em 0.05em #333;
 	margin-left: 18vw;
@@ -278,7 +275,7 @@ body{
 	z-index: 2;
 	position: absolute;
 	font-family: 'Barlow Condensed', sans-serif;
-	font-size: 3rem;
+	font-size: 2rem;
 	color: #fff;
 	margin-top: 65vh;
 	margin-left: 5vw;
@@ -324,10 +321,10 @@ body{
     color: #fff;
     width: 11.5vw;
     height: 3.5vw;
-    font-size: 2rem;
+    font-size: 1.3rem;
     font-family: 'Barlow Condensed', sans-serif;
-    margin-top: 0.35vw;
-    margin-left: 0.2vw;
+    /* margin-top: 0.35vw; */
+    /* margin-left: 0.2vw; */
     text-align: center;
 }
 .material-icons{
@@ -362,18 +359,11 @@ body{
 }
 .to_top{
 	display:flex;
-	/* position:relative;
-	vertical-align:bottom;
-	justify-content:center;
-	margin-left: 47.75vw;
-	display: inline-block;
-	position: relative;
-	margin-top: 48px; */
 }
 .back_to_top{
 	position: absolute;
 	font-family: 'Barlow Condensed', sans-serif;
-	font-size: 1.5rem;
+	font-size: 1rem;
 	width: 150px;
 	height: 20px;
 	text-align: center;
@@ -397,7 +387,7 @@ body{
 	width: 34%;
 	background-color: #e5e9dc;
 	padding: 20px 40px;
-	font-size: 85%;
+	font-size: 0.5rem;
 }
 
 /* Footer */
@@ -405,7 +395,7 @@ body{
 	width: 100vw;
 	height: 120px;
 	text-align: center;
-	font-size: 85%;
+	font-size: 0.5rem;
 	background-color: #212121;
 	padding-bottom: 20px;
 	padding-top: 30px;
@@ -432,5 +422,17 @@ body{
 }
 .word_copyright{
 	color: #8a8174;
-	font-size: 12px;
+	font-size: 0.5rem;
+}
+/* iPad version */
+@media screen and (max-width: 768px) {
+	html{
+		font-size: 20px;
+	}
+}
+/* iPhone version */
+@media screen and (max-width: 480px) {
+	html{
+		font-size: 16px;
+	}
 }
