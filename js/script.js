@@ -1,15 +1,15 @@
-$(document).ready(function(){
-	$('.myLink').click(function(){
-		// $('h1').css('font-size','40px');
-		$('h1').html('<i>Clicked!</i>')
-		alert($('h1').text());
+let j=1;
+for(let i=1; i<=5; i++){
+	$(document).ready(function(){
+		$('.dots_'+i).click(function(){
+			while(j<=5){
+				$('.dots_'+j+'.icon_dots_2').css('display','none')
+				$('.dots_'+j+'.icon_dots_1').css('display','block')
+				j++;
+			}
+			j=1;
+			$('.dots_'+i+'.icon_dots_1').css('display','none')
+			$('.dots_'+i+'.icon_dots_2').css('display','block')
+		});
 	});
-
-	$('.myLink').mouseenter(function(){
-		$('h1').addClass('red');
-	});
-
-	$('.myLink').mouseleave(function(){
-		$('h1').removeClass('red');
-	});
-});
+}
