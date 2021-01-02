@@ -6,10 +6,6 @@ html {
 	font-size: 24px;
 }
 
-*,*:before,*:after {
-	box-sizing: inherit;
-}
-
 body{
 	border: 0;
 	font-size: 100%;
@@ -19,11 +15,6 @@ body{
 	padding: 0;
 	display: block;
 }
-
-/* html, body{
-	max-width: 100%;
-	min-height: 100%;
-} */
 
 .container {
 	max-width: 100%;
@@ -44,7 +35,8 @@ body{
 	font-family: 'Roboto Mono', monospace, sans-serif;
 	font-size: 0.53rem;
   	font-weight: 400;
-  	overflow: hidden;
+	overflow: hidden;
+	box-sizing: border-box;
 }
 
 .logo_img{
@@ -53,23 +45,32 @@ body{
 	margin-left: 10vw;
 	margin-top: 10px;
 }
+.icon_menu{
+	position: absolute;
+	width: 50px;
+	height: 50px;
+	right: 0;
+	display: none;
+}
 
 /* Navitation Bar Style */
-
 .float-nav{
 	width: 100vw;
-	margin-right: 10vw;
+	right: 10vw;
+	margin-left: 10vw;
+	display: block;
 }
-
 .nav_list {
-   min-width: 800px;
-   display: flex;
-   justify-content: flex-end;
-   margin: 0;
-   padding: 0;
+	position: absolute;
+    width: 60vw;
+    display: flex;
+    justify-content: flex-end;
+    margin: 0;
+    padding: 0;
 }
 
-.nav_list-item{
+.nav_list_item{
+	position: relative;
 	list-style: none;
     width: 9vw;
     height: 50px;
@@ -77,6 +78,10 @@ body{
     text-align: center;
     outline: 1px solid #424242;
 }
+.nav_list_item:hover{
+    background-color: #6e6e6e;
+}
+
 .icon_mockingjay{
    position: absolute;
    height: 20px;
@@ -90,14 +95,6 @@ body{
 	text-decoration: none;
 	padding: 15px 0px;
 	border-bottom: none;
-}
-
-.nav_list-item:hover > .nav_list_item_link {
-    background-color: #6e6e6e;
-}
-
-.active-hover {
-	background-color: #6e6e6e;
 }
 
 /* Content Style */
@@ -205,23 +202,23 @@ body{
 	width: 100vw;
 }
 
-.word_onimginside{
+.word_inside{
+	position: absolute;
 	font-family:Times;
 	font-size: 2rem;
 	color: #ffffff;
-	position: absolute;
-	left: 18vw; 
-	top: 20vh;
+	left: 18vw;
+	top: 9vw;
 	text-shadow: 0.1em 0.1em 0.05em #333;
 }
 
-.word_readinside{
+.word_read_inside{
+	position :absolute;
 	text-decoration: none;
 	color: #ffffff;
 	font-size: 0.75rem;
-	position :absolute;
 	left: 18vw;
-	top: 36vh;
+	top: 20vw;
 	width: 150px;
 	height: 25px;
 	text-align: center;
@@ -229,16 +226,10 @@ body{
 	font-family: 'Barlow Condensed', sans-serif;
 	/* text-shadow: 0.1em 0.1em 0.05em #333; */
 }
-.word_readinside:hover{
+.word_read_inside:hover{
 	opacity: 0.5;
 }
 
-/* .three_finger_salute{
-	width: 450px;
-	height: 70px;
-	font-size: 48px;
-	margin-left: 13vw;
-} */
 .img_three_finger_salute{
 	width: 100vw;
 }
@@ -253,6 +244,9 @@ body{
 .quote_1{
 	width: 100vw;
 }
+.img_quote_1{
+	width: 100vw;
+}
 .word_quote1{
 	position: absolute;
 	width: 30vw;
@@ -261,34 +255,32 @@ body{
 	color: #ffffff;
 	text-shadow: 0.1em 0.1em 0.05em #333;
 	margin-left: 18vw;
-	margin-top: 15vw;
+	margin-top: 10vw;
 }
-.img_quote_1{
-	width: 100vw;
-}
+
 /* People */
 .box_people_area{
+	position: relative;
 	width: 100vw;
-	height: 80vh;
+	height: 40vw;
 }
 .box_people{
+	position: absolute;
 	width: 64vw;
-	height: 80vh;
 	margin-left: 18vw;
 }
 .box_katniss{
 	position: absolute;
 	width: 26vw;
-	max-height: 80vh;
 }
 .word_katniss{
-	z-index: 2;
 	position: absolute;
+	z-index: 2;
 	font-family: 'Barlow Condensed', sans-serif;
 	font-size: 2rem;
 	color: #fff;
-	margin-top: 65vh;
-	margin-left: 5vw;
+	top: 30vw;
+	left: 5vw;
 }
 .word_katniss:hover{
 	opacity: 0.5;
@@ -304,17 +296,18 @@ body{
 	display: flex;
 	flex-wrap: wrap;
 	width: 35vw;
-	height: 500px;
+	height: 15vw;
 	font-size: 0;
 }
 .box_peeta{
 	width: 15vw;
-	height: 20vw;
+	height: 15vw;
 	margin-right: 1.5vw;
+	margin-bottom: 5vw;
 }
 .box_haymitch{
 	width: 15vw;
-	height: 20vw;
+	height: 15vw;
 	margin-right: 1.5vw;
 }
 .img{
@@ -358,15 +351,18 @@ body{
 }
 /* District */
 .district_box{
-	width: 100vw;
-	height: 80vh;
+	width: 60vw;
+	height: 40vw;
 	background-color: #ffffff;
 	display: block; 
 	margin: auto;
+	cursor: pointer;
 }
 .img_district{
 	display: block; 
-	height: 80vh;
+	width: 60vw;
+	right: 0;;
+	left: 0;
 	margin: auto;
 }
 .to_top{
@@ -436,15 +432,48 @@ body{
 	color: #8a8174;
 	font-size: 0.5rem;
 }
-/* iPad version */
+/* iPad version RWD */
 @media screen and (max-width: 768px) {
 	html{
 		font-size: 20px;
+		max-width: 100%;
+	}
+	.logo_img{
+		position: absolute;
+		right: 0;
+		left: 0;
+		top: 0;
+		bottom: 0;
+	}
+	.float-nav{
+		display: none;
+	}
+	.icon_menu{
+		display: block;
+	}
+	.word_quote1{
+		position: absolute;
+		width: 40vw;
+		margin-top: 5vw;
+		margin-left: 5vw;
 	}
 }
-/* iPhone version */
+/* iPhone version RWD */
 @media screen and (max-width: 480px) {
 	html{
 		font-size: 16px;
+		max-width: 100%;
+	}
+	.float-nav{
+		display: none;
+	}
+	.icon_menu{
+		display: block;
+	}
+	.word_quote1{
+		position: absolute;
+		width: 40vw;
+		margin-top: 5vw;
+		margin-left: 5vw;
 	}
 }
