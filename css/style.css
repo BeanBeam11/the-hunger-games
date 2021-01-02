@@ -431,7 +431,7 @@ body{
 	font-size: 0.5rem;
 }
 /* iPad version RWD */
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1024px) {
 	html{
 		font-size: 20px;
 		max-width: 100%;
@@ -446,6 +446,14 @@ body{
 	.burger{
 		display: block;
 	}
+	.btn_inside{
+		position: absolute;
+		right: 0;
+		left: 0;
+		top: 0;
+		bottom: 0;
+		margin: auto;
+	}
 	.word_quote1{
 		width: 45vw;
 		margin-left: 15vw;
@@ -453,6 +461,17 @@ body{
 	}
 	.box_name{
 		font-size: 1rem;
+	}
+	.img_arrow_down{
+		width: 45px;
+	}
+	.img_arrow_top{
+		width: 45px;
+	}
+}
+@media screen and (max-width: 768px) {
+	.word_quote1{
+		font-size: 1.5rem;
 	}
 }
 /* iPhone version RWD */
@@ -493,6 +512,7 @@ body{
 		width: 45vw;
 		margin-left: 15vw;
 		/* margin-top: 10vw; */
+		font-size: 2rem;
 	}
 	.img_arrow_down{
 		width: 40px;
