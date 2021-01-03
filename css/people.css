@@ -14,90 +14,12 @@ body{
     margin: 0;
 }
 
-/* html, body{
-	max-width: 100%;
-	min-height: 100%;
-} */
 
 .container {
     background-color: #FFF;
     height: 200vh;
     overflow: hidden;
 }
-
-/* Header Style */
-.header {
-    z-index: 1;
-	display: flex;
-    position: fixed;
-    top: 0;
-	background-color: #212121;
-	height: 50px;
-	width: 100vw;
-	font-family: 'Roboto Mono', monospace, sans-serif;
-	font-size: 0.8em;
-    font-weight: 400;
-    overflow: hidden;
-}
-
-.logo_img{
-	position: relative;
-	width: 180px;
-	margin-left: 10vw;
-	margin-top: 10px;
-}
-
-/* Navitation Bar Style */
-
-.float-nav{
-	width: 100vw;
-	margin-right: 10vw;
-}
-
-.nav_list {
-   min-width: 800px;
-   display: flex;
-   justify-content: flex-end;
-   margin: 0;
-   padding: 0;
-}
-
-.nav_list-item{
-	list-style: none;
-    width: 9vw;
-    height: 50px;
-    line-height: 20px;
-    text-align: center;
-    outline: 1px solid #424242;
-}
-.icon_mockingjay{
-   position: absolute;
-   height: 20px;
-}
-.nav_span{
-   margin-left: 25px;
-}
-.nav_list_item_link{
-	display: block;
-	color: #8a8174;
-	text-decoration: none;
-	padding: 15px 0px;
-	border-bottom: none;
-}
-
-.nav_list-item:hover > .nav_list_item_link {
-  background-color: #6e6e6e;
-}
-
-.active-hover {
-	background-color: #6e6e6e;
-}
-
-/* .nav-list-item-link:hover {
-	background-color: #e5e9dc;
-}
- */
-
  /* Content Style */
  .background{
     margin-top: 50px;
@@ -105,7 +27,7 @@ body{
     font-size: 0;
 }
  .bgi{
-    width: 100vw;
+    width: calc(100vw - 25vw);
 }
  .box_people{
     position: absolute;
@@ -206,4 +128,198 @@ body{
 }
 .img_finnick{
     width: 12vw;
+}
+/* iPad version */
+@media screen and (max-width: 1024px){
+    .container{
+        height: 350vh;
+    }
+    .bgi{
+        width: 100vw;
+    }
+    .box_people{
+        position: absolute;
+        width: 100vw;
+        height: 350vh;
+        right: 0;
+        left: 0;
+        margin: auto;
+        background-color: rgba(0, 0, 0, 0.6);
+    }
+    .box_people_2{
+        width: 75vw;
+        padding: 5vw 5vw;
+        margin-top: 5vw;
+    }
+    .box{
+        margin-top: 12vw;
+    }
+    .box_name{
+        font-size: 2rem;
+        margin-left: 2vw;
+    }
+    .gray_box{
+        position: absolute;
+        width: 30vw;
+        height: 8vw;
+        background-color: #8a8174;
+    }
+    .material-icons{
+        position: absolute;
+        width: 8vw;
+        height: 8vw;
+        right: 0;
+        opacity: 0.5;
+    }
+    
+    .box_katniss{
+        width: 30vw;
+        height: 12vw;
+    }
+    .img_katniss{
+        width: 30vw;
+    }
+    .box_peeta{
+        width: 30vw;
+    }
+    .img_peeta{
+        width: 30vw;
+    }
+    .box_haymitch{
+        width: 30vw;
+    }
+    .img_haymitch{
+        width: 30vw;
+    }
+    .box_gale{
+        width: 30vw;
+    }
+    .img_gale{
+        width: 30vw;
+    }
+    .box_cinna{
+        width: 30vw;
+    }
+    .img_cinna{
+        width: 30vw;
+    }
+    .box_primrose{
+        width: 30vw;
+    }
+    .img_primrose{
+        width: 30vw;
+    }
+    .box_effie{
+        width: 30vw;
+    }
+    .img_effie{
+        width: 30vw;
+    }
+    .box_finnick{
+        width: 30vw;
+    }
+    .img_finnick{
+        width: 30vw;
+    }
+}
+@media screen and (max-width: 768px){
+    .container{
+        height: 250vh;
+    }
+    .box_people{
+        height: 250vh;
+    }
+}
+/* iPhone version */
+@media screen and (max-width: 480px){
+    .container{
+        height: 200vh;
+    }
+    .bgi{
+        width: 100vw;
+    }
+    .box_people{
+        position: absolute;
+        width: 100vw;
+        height: 200vh;
+        right: 0;
+        left: 0;
+        margin: auto;
+        background-color: rgba(0, 0, 0, 0.6);
+    }
+    .box_people_2{
+        width: 75vw;
+        padding: 5vw 5vw;
+        margin-top: 5vw;
+    }
+    .box{
+        margin-top: 12vw;
+    }
+    .box_name{
+        font-size: 2rem;
+        margin-left: 2vw;
+    }
+    .gray_box{
+        position: absolute;
+        width: 30vw;
+        height: 8vw;
+        background-color: #8a8174;
+    }
+    .material-icons{
+        position: absolute;
+        width: 8vw;
+        height: 8vw;
+        right: 0;
+        opacity: 0.5;
+    }
+    
+    .box_katniss{
+        width: 30vw;
+        height: 12vw;
+    }
+    .img_katniss{
+        width: 30vw;
+    }
+    .box_peeta{
+        width: 30vw;
+    }
+    .img_peeta{
+        width: 30vw;
+    }
+    .box_haymitch{
+        width: 30vw;
+    }
+    .img_haymitch{
+        width: 30vw;
+    }
+    .box_gale{
+        width: 30vw;
+    }
+    .img_gale{
+        width: 30vw;
+    }
+    .box_cinna{
+        width: 30vw;
+    }
+    .img_cinna{
+        width: 30vw;
+    }
+    .box_primrose{
+        width: 30vw;
+    }
+    .img_primrose{
+        width: 30vw;
+    }
+    .box_effie{
+        width: 30vw;
+    }
+    .img_effie{
+        width: 30vw;
+    }
+    .box_finnick{
+        width: 30vw;
+    }
+    .img_finnick{
+        width: 30vw;
+    }
 }
