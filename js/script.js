@@ -1,3 +1,11 @@
+/* hamburger menu */ 
+$(document).ready(function(){
+	$('.burger').click(function(){
+		$('.float-nav').toggleClass('menu-click')
+	});
+});
+
+/* dots */
 let j=1;
 for(let i=1; i<=5; i++){
 	$(document).ready(function(){
