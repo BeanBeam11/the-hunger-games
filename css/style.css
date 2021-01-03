@@ -334,7 +334,7 @@ body{
 	width: 100vw;
 	height: 120px;
 	text-align: center;
-	font-size: 0.5rem;
+	font-size: 0.7rem;
 	background-color: #212121;
 	padding: 30px 5vw 20px 5vw;
 	box-sizing: border-box;
@@ -369,42 +369,6 @@ body{
 		font-size: 20px;
 		max-width: 100%;
 	}
-	.logo_img{
-		position: absolute;
-		left: 30vw;
-	}
-
-	/* Header area */
-	.float-nav{
-		position: absolute;
-		width: 100vw;
-		/* height: calc(100vh - 50px); */
-		height: 300px;
-		top: 50px;
-		right: 0;
-		position: fixed;
-		background-color: #212121;
-		display: none;
-	}
-	.nav_list{
-		position: absolute;
-		display: block;
-		width: 100vw;
-		/* height: calc(100vh - 50px); */
-		height: 300px;
-	}
-	.nav_list_item{
-		/* position: absolute; */
-		width: 100vw;
-		height: 50px;
-	}
-	.burger{
-		display: block;
-	}
-	.menu-click{
-		display: block;
-	}
-
 	.btn_inside{
 		position: absolute;
 		right: 0;
@@ -429,35 +393,11 @@ body{
 	}
 }
 @media screen and (max-width: 768px) {
+	html{
+		font-size: 15px;
+	}
 	.word_quote1{
 		font-size: 1.5rem;
-	}
-	/* Header area */
-	.float-nav{
-		position: absolute;
-		width: 100vw;
-		/* height: calc(100vh - 50px); */
-		height: 300px;
-		top: 50px;
-		right: 0;
-		position: fixed;
-		background-color: #212121;
-		display: none;
-	}
-	.nav_list{
-		position: absolute;
-		display: block;
-		width: 100vw;
-		/* height: calc(100vh - 50px); */
-		height: 300px;
-	}
-	.nav_list_item{
-		/* position: absolute; */
-		width: 100vw;
-		height: 50px;
-	}
-	.menu-click{
-		display: block;
 	}
 	/* main */
 	.box_word_inside{
@@ -493,39 +433,6 @@ body{
 		font-size: 10px;
 		max-width: 100%;
 	}
-	/* Header area */
-	.logo_img{
-		position: absolute;
-		left: 15vw;
-	}
-	.float-nav{
-		position: absolute;
-		width: 100vw;
-		height: calc(100vh - 50px);
-		top: 50px;
-		right: 0;
-		position: fixed;
-		background-color: #212121;
-		display: none;
-	}
-	.nav_list{
-		position: absolute;
-		display: block;
-		width: 100vw;
-		height: calc(100vh - 50px);
-	}
-	.nav_list_item{
-		/* position: absolute; */
-		width: 100vw;
-		height: 50px;
-	}
-	.burger{
-		display: block;
-	}
-	.menu-click{
-		display: block;
-	}
-
 	/* Main area */
 	.white_box{
 		height: 70px;

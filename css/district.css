@@ -1,7 +1,8 @@
 /* GLobal Style */
 html {
 	background-color: #ffffff;
-	box-sizing: border-box;
+  box-sizing: border-box;
+  /* font-size: 16px; */
 }
 
 *,*:before,*:after {
@@ -14,91 +15,16 @@ body{
     margin: 0;
 }
 
-/* html, body{
-	max-width: 100%;
-	min-height: 100%;
-} */
-
 .container {
 	background-color: #FFF;
 }
 
-/* Header Style */
-.header {
-	display: flex;
-  position: fixed;
-  top: 0;
-	background-color: #212121;
-	height: 50px;
-	width: 100vw;
-	font-family: 'Roboto Mono', monospace, sans-serif;
-	font-size: 0.8em;
-  font-weight: 400;
-  overflow: hidden;
-}
-
-.logo_img{
-	position: relative;
-	width: 180px;
-	margin-left: 10vw;
-	margin-top: 10px;
-}
-
-/* Navitation Bar Style */
-
-.float-nav{
-	width: 100vw;
-	margin-right: 10vw;
-}
-
-.nav_list {
-   min-width: 800px;
-   display: flex;
-   justify-content: flex-end;
-   margin: 0;
-   padding: 0;
-}
-
-.nav_list-item{
-	 list-style: none;
-   width: 9vw;
-   height: 50px;
-	 line-height: 20px;
-   text-align: center;
-   outline: 1px solid #424242;
-}
-.icon_mockingjay{
-   position: absolute;
-   height: 20px;
-}
-.nav_span{
-   margin-left: 25px;
-}
-.nav_list_item_link{
-	display: block;
-	color: #8a8174;
-	text-decoration: none;
-	padding: 15px 0px;
-	border-bottom: none;
-}
-
-.nav_list-item:hover > .nav_list_item_link {
-  background-color: #6e6e6e;
-}
-
-.active-hover {
-	background-color: #6e6e6e;
-}
-
-/* .nav-list-item-link:hover {
-	background-color: #e5e9dc;
-}
- */
-
  /* Content Style */
  .img_map{
-   width: 100vw;
-   min-width: 1920px;
+  position: absolute;
+  top: 50px;
+  width: 100vw;
+   /* min-width: 1920px; */
  }
  .box_map_explain{
    position: fixed;
@@ -111,7 +37,7 @@ body{
  }
  .featured_district{
    font-family: 'Roboto Mono', monospace, sans-serif;
-   font-size: 3rem;
+   font-size: 2.5rem;
    font-weight: 500;
    /* height: 30px; */
    width: 20vw;
@@ -127,14 +53,14 @@ body{
  .box_gray{
    position: absolute;
    width: 20vw;
-   height: 100vh;
+   height: calc(100vh - 50px);
    margin-top: 30vh;
    background-color: #d5d7db;
 }
  .word_map_12{
    position: absolute;
    font-family: 'Barlow Condensed', sans-serif;
-   font-size: 2.5em;
+   font-size: 2rem;
    font-weight: 400;
    width: 20vw;
    text-align: center;
@@ -163,4 +89,33 @@ body{
  .btn_view_more:hover{
    opacity: 0.5;
  }
- 
+ /* iPhone version */
+ @media screen and (max-width: 768px){
+  
+ }
+ @media screen and (max-width: 480px){
+  .featured_district{
+    font-size: 1.4rem;
+  }
+  .img_district_12{
+    margin-top: 5vw;
+  }
+  .box_gray{
+    height: 30vw;
+    margin-top: 20vw;
+  }
+  .word_map_12{
+    font-size: 1rem;
+    margin: 4vw 0;
+
+  }
+  .box_view_more{
+    width: 10vw;
+    margin-top: 5vw;
+  }
+  .btn_view_more{
+    width: 10vw;
+    margin-top: 5vw;
+    font-size: 8px;
+  }
+}
