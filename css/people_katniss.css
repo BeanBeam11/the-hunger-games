@@ -54,6 +54,7 @@ body{
 .img_katniss_1 {
     position: absolute;
     width: 340px;
+    box-shadow: -2px -2px 8px 1px rgba(0, 0, 0, 0.5);
 }
 .box_katniss_explain{
     position: absolute;
@@ -64,7 +65,7 @@ body{
 }
 .img_bgi_black{
     position: absolute;
-    /* overflow: hidden; */
+    box-shadow: -2px -2px 8px 1px rgba(0, 0, 0, 0.5);
 }
 .explain{
     position: absolute;
@@ -110,6 +111,7 @@ body{
 .img_district_12{
     width: 140px;
     height: 180px;
+    /* box-shadow: -2px -2px 8px 1px rgba(0, 0, 0, 0.5); */
 }
 .img_district_12:hover{
     opacity: 0.5;
@@ -118,4 +120,5 @@ body{
     margin-left: 10px;
     width: 189px;
     height: 270px;
+    box-shadow: -2px -2px 8px 1px rgba(0, 0, 0, 0.5);
 }

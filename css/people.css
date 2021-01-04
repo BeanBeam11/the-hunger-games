@@ -37,6 +37,7 @@ body{
     top: 0;
     right: 0;
     padding: 0;
+    box-shadow: -2px -2px 8px 1px rgba(0, 0, 0, 0.5);
 }
 .box_people_2{
     position: absolute;
@@ -52,12 +53,14 @@ body{
 .box{
     margin-top: 5vw;
     font-size: 0;
+    /* box-shadow: -2px -2px 8px 1px rgba(0, 0, 0, 0.5); */
 }
 .gray_box{
     position: absolute;
     width: 12vw;
     height: 3.5vw;
     background-color: #8a8174;
+    /* box-shadow: -2px -2px 8px 1px rgba(0, 0, 0, 0.5); */
 }
 .box_name{
     position: absolute;
@@ -153,6 +156,7 @@ body{
     }
     .box{
         margin-top: 12vw;
+        box-shadow: -2px -2px 8px 1px rgba(0, 0, 0, 0.5);
     }
     .box_name{
         font-size: 2rem;
@@ -163,6 +167,7 @@ body{
         width: 30vw;
         height: 8vw;
         background-color: #8a8174;
+        box-shadow: -2px -2px 8px 1px rgba(0, 0, 0, 0.5);
     }
     .material-icons{
         position: absolute;
