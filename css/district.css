@@ -1,6 +1,7 @@
 /* GLobal Style */
 html {
-	background-color: #ffffff;
+  /* background-color: #ffffff; */
+  background-color: #212121;
   box-sizing: border-box;
   /* font-size: 16px; */
 }
