@@ -1,0 +1,41 @@
+html{
+    background-color: #212121;
+}
+.header{
+    outline: 1px solid #8A8174;
+}
+.container{
+    position: absolute;
+    width: 80vw;
+    height: 50vh;
+    right: 0;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+}
+.img_red{
+    position: absolute;
+    /* width: 22vw; */
+    height: 30vh;
+    /* top: 5vw; */
+    right: 0;
+    left: 0;
+    margin: auto;
+}
+p{
+    font-family: 'Roboto Mono';
+    color: #8A8174;
+    text-align: center;
+    margin-top: 32vh;
+    font-size: 20px;
+}
+@media screen and (max-width: 480px){
+    .img_red{
+        position: absolute;
+        height: 25vh;
+    }
+    p{
+        font-size: 12px;
+    }
+}
