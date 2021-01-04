@@ -35,6 +35,7 @@ body{
    height: 100vh;
    background-color: #d5d7db;
    opacity: 0.9;
+   display: none;
  }
  .featured_district{
    font-family: 'Roboto Mono', monospace, sans-serif;
@@ -92,6 +93,9 @@ body{
  }
  map {
   display: inline;
+}
+area{
+  display: block;
 }
 
 /* iPad version */

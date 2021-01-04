@@ -21,3 +21,14 @@ for(let i=1; i<=5; i++){
 		});
 	});
 }
+
+/* map */ 
+$(document).ready(function(){
+	for(let i=1; i<=13; i++)
+	$('.district_'+i).click(function(){
+		$('.box_map_explain').toggleClass('menu-click')
+	});
+	$('.district_c').click(function(){
+		$('.box_map_explain').toggleClass('menu-click')
+	});
+});
