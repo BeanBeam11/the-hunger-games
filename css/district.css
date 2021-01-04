@@ -35,7 +35,8 @@ body{
    height: 100vh;
    background-color: #d5d7db;
    opacity: 0.9;
-   display: none;
+   box-shadow: -2px -2px 10px 1px rgba(0, 0, 0, 0.5);
+   /* display: none; */
  }
  .featured_district{
    font-family: 'Roboto Mono', monospace, sans-serif;
