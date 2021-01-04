@@ -96,6 +96,10 @@ body{
 }
 area{
   display: block;
+  cursor: pointer;
+}
+.menu-click{
+  display: block;
 }
 
 /* iPad version */
