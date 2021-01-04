@@ -90,11 +90,76 @@ body{
  .btn_view_more:hover{
    opacity: 0.5;
  }
- /* iPhone version */
+ map {
+  display: inline;
+}
+
+/* iPad version */
+@media screen and (max-width: 1024px){
+  html{
+    font-size: 22px;
+  }
+  .featured_district{
+    font-size: 1.2rem;
+  }
+  .img_district_12{
+    margin-top: 5vw;
+  }
+  .box_gray{
+    height: 30vw;
+    margin-top: 20vw;
+  }
+  .word_map_12{
+    font-size: 1rem;
+    margin: 4vw 0;
+
+  }
+  .box_view_more{
+    width: 10vw;
+    margin-top: 5vw;
+  }
+  .btn_view_more{
+    width: 10vw;
+    height: 3vh;
+    margin-top: 5vw;
+    font-size: 8px;
+  }
+}
+ /* iPad version */
  @media screen and (max-width: 768px){
-  
+   html{
+     font-size: 20px;
+   }
+  .featured_district{
+    font-size: 1.2rem;
+  }
+  .img_district_12{
+    margin-top: 5vw;
+  }
+  .box_gray{
+    height: 30vw;
+    margin-top: 20vw;
+  }
+  .word_map_12{
+    font-size: 1rem;
+    margin: 4vw 0;
+
+  }
+  .box_view_more{
+    width: 10vw;
+    margin-top: 5vw;
+  }
+  .btn_view_more{
+    width: 10vw;
+    height: 3vh;
+    margin-top: 5vw;
+    font-size: 8px;
+  }
  }
  @media screen and (max-width: 480px){
+  .box_map_explain{
+    height: 50vh;
+  }
   .featured_district{
     font-size: 1.4rem;
   }
@@ -117,6 +182,6 @@ body{
   .btn_view_more{
     width: 10vw;
     margin-top: 5vw;
-    font-size: 8px;
+    font-size: 5px;
   }
 }
