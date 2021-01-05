@@ -34,13 +34,76 @@ $(document).ready(function(e) {
 });
 
 $(document).ready(function(){
-	for(let i=1; i<=13; i++)
-	$('.district_'+i).click(function(){
+	// for(let i=1; i<=13; i++){
+	// 	$('.district_'+i).click(function(){
+	// 		$('.box_map_explain').toggleClass('menu-click')
+	// 	});
+	// 	$('.district_c').click(function(){
+	// 		$('.box_map_explain').toggleClass('menu-click')
+	// 	});
+	//  }
+	// $('.district_9').click(function(){
+	// 	$('.word_map_12').html("District 9 - Grain")
+	// 	$('.box_map_explain').toggleClass('menu-click')
+	// });
+	$('.district_1').click(function(){
+		$('.word_map_12').html("District 1 - Luxury")
+		$('.box_map_explain').toggleClass('menu-click')
+	});
+	$('.district_2').click(function(){
+		$('.word_map_12').html("District 2 - Masonry")
+		$('.box_map_explain').toggleClass('menu-click')
+	});
+	$('.district_3').click(function(){
+		$('.word_map_12').html("District 3 - Technology")
+		$('.box_map_explain').toggleClass('menu-click')
+	});
+	$('.district_4').click(function(){
+		$('.word_map_12').html("District 4 - Fishing")
+		$('.box_map_explain').toggleClass('menu-click')
+	});
+	$('.district_5').click(function(){
+		$('.word_map_12').html("District 5 - Power")
+		$('.box_map_explain').toggleClass('menu-click')
+	});
+	$('.district_6').click(function(){
+		$('.word_map_12').html("District 6 - Transportation")
+		$('.box_map_explain').toggleClass('menu-click')
+	});
+	$('.district_7').click(function(){
+		$('.word_map_12').html("District 7 - Lumber")
+		$('.box_map_explain').toggleClass('menu-click')
+	});
+	$('.district_8').click(function(){
+		$('.word_map_12').html("District 8 - Textiles")
+		$('.box_map_explain').toggleClass('menu-click')
+	});
+	$('.district_9').click(function(){
+		$('.word_map_12').html("District 9 - Grain")
+		$('.box_map_explain').toggleClass('menu-click')
+	});
+	$('.district_10').click(function(){
+		$('.word_map_12').html("District 10 - Livestock")
+		$('.box_map_explain').toggleClass('menu-click')
+	});
+	$('.district_11').click(function(){
+		$('.word_map_12').html("District 11 - Agriculture")
+		$('.box_map_explain').toggleClass('menu-click')
+	});
+	$('.district_12').click(function(){
+		$('.word_map_12').html("District 12 - Coal")
+		$('.box_map_explain').toggleClass('menu-click')
+	});
+	$('.district_13').click(function(){
+		$('.word_map_12').html("District 13 - Nuclear")
 		$('.box_map_explain').toggleClass('menu-click')
 	});
 	$('.district_c').click(function(){
+		$('.word_map_12').html("The Capitol")
 		$('.box_map_explain').toggleClass('menu-click')
 	});
+
+
 	/* map hover - maphilight */ 
 	$.fn.maphilight.defaults = {
 		fill: true,
@@ -56,5 +119,6 @@ $(document).ready(function(){
 	$(function() {
 		$('.map').maphilight();
 	});
+	/* */
 });
 
