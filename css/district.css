@@ -31,7 +31,7 @@ body{
    position: fixed;
    top: 50px;
    right: 0;
-   width: 20vw;
+   width: 30vw;
    height: 100vh;
    background-color: #d5d7db;
    opacity: 0.9;
@@ -43,21 +43,26 @@ body{
    font-size: 2.5rem;
    font-weight: 500;
    /* height: 30px; */
-   width: 20vw;
+   width: 30vw;
    text-align: center;
    margin-top: 25px;
    color: #6e6e6e;
  }
- .img_district_12{
+ .box_district_img{
    position: absolute;
-   width: 100%;
+   width: 30vw;
+   height: 20vw;
    margin-top: 4vh;
+   background-image: url(../img/district_12.jpg);
+   background-size: cover;
+   background-repeat: no-repeat;
+   background-position: center center;
  }
  .box_gray{
    position: absolute;
-   width: 20vw;
+   width: 30vw;
    height: calc(100vh - 50px);
-   margin-top: 30vh;
+   margin-top: 45vh;
    background-color: #d5d7db;
 }
  .word_map_12{
@@ -65,14 +70,14 @@ body{
    font-family: 'Barlow Condensed', sans-serif;
    font-size: 2rem;
    font-weight: 400;
-   width: 20vw;
+   width: 30vw;
    text-align: center;
    margin: 5vh auto;
    color: #6e6e6e;
  }
 .box_view_more{
   position: absolute;
-  width: 5vw;
+  width: 8vw;
   right: 0;
   left: 0;
   margin: auto;
@@ -82,7 +87,7 @@ body{
    font-family: 'Barlow Condensed', sans-serif;
    font-size: 1rem;
    color:  #6e6e6e;
-   width: 5vw;
+   width: 8vw;
    height: 25px;
    outline: 1px solid  #6e6e6e;
    text-align: center;
@@ -108,14 +113,14 @@ area{
   html{
     font-size: 22px;
   }
+  .box_map_explain{
+    height: 30vh;
+  }
   .featured_district{
     font-size: 1.2rem;
   }
-  .img_district_12{
-    margin-top: 5vw;
-  }
   .box_gray{
-    height: 30vw;
+    height: 20vh;
     margin-top: 20vw;
   }
   .word_map_12{
@@ -139,14 +144,14 @@ area{
    html{
      font-size: 20px;
    }
+   .box_map_explain{
+    height: 30vh;
+  }
   .featured_district{
     font-size: 1.2rem;
   }
-  .img_district_12{
-    margin-top: 5vw;
-  }
   .box_gray{
-    height: 30vw;
+    height: 20vh;
     margin-top: 20vw;
   }
   .word_map_12{
@@ -167,17 +172,14 @@ area{
  }
  @media screen and (max-width: 480px){
   .box_map_explain{
-    height: 50vh;
+    height: 30vh;
   }
   .featured_district{
     font-size: 1.4rem;
   }
-  .img_district_12{
-    margin-top: 5vw;
-  }
   .box_gray{
-    height: 30vw;
-    margin-top: 20vw;
+    height: 15vh;
+    margin-top: 25vw;
   }
   .word_map_12{
     font-size: 1rem;
@@ -185,12 +187,15 @@ area{
 
   }
   .box_view_more{
-    width: 10vw;
+    width: 50px;
+    height: 18px;
     margin-top: 5vw;
   }
   .btn_view_more{
-    width: 10vw;
+    position: absolute;
+    width: 50px;
+    height: 18px;
     margin-top: 5vw;
-    font-size: 5px;
+    font-size: 12px;
   }
 }
