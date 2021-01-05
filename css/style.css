@@ -353,13 +353,15 @@ body{
 .back_to_top{
 	position: absolute;
 	font-family: 'Barlow Condensed', sans-serif;
-	font-size: 1rem;
+	font-size: 14px;
+	font-weight: 500;
 	width: 150px;
 	height: 20px;
 	text-align: center;
 	display: block;
 	margin-left: 52vw;
-	margin-top: 60px;
+	/* margin-top: 5vh; */
+	bottom: 1vh;
 	color:  #212121;
 }
 
@@ -396,6 +398,7 @@ body{
 .word_copyright{
 	color: #8a8174;
 	font-size: 11.5px;
+	font-family: 'Noto Serif TC', sans-serif;
 }
 /* iPad version RWD */
 @media screen and (max-width: 1024px) {
