@@ -113,6 +113,9 @@ area{
   html{
     font-size: 22px;
   }
+  .box_district_img{
+    background-image: url(../img/district_12.jpg);
+  }
   .box_map_explain{
     height: 30vh;
   }
@@ -144,6 +147,9 @@ area{
    html{
      font-size: 20px;
    }
+   .box_district_img{
+    background-image: url(../img/district_12.jpg);
+  }
    .box_map_explain{
     height: 30vh;
   }
@@ -171,6 +177,9 @@ area{
   }
  }
  @media screen and (max-width: 480px){
+  .box_district_img{
+    background-image: url(../img/district_12.jpg);
+  }
   .box_map_explain{
     height: 30vh;
   }
