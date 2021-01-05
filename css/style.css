@@ -9,11 +9,9 @@ html {
 body{
 	border: 0;
 	font-size: 100%;
-	/* font: inherit; */
 	min-width: 320px;
 	margin: 0;
 	padding: 0;
-	/* display: block; */
 }
 
 .container {
@@ -100,8 +98,9 @@ body{
 	font-size: 2.3rem;
 	font-weight: 500;
 	width: 200px;
-	height: 50px;
-	margin-top: 12px;
+	line-height: 15vh;
+	/* height: 50px; */
+	/* margin-top: 12px; */
 	margin-left: 18vw;
 	text-align: center;
 }
@@ -184,6 +183,7 @@ body{
 	position: relative;
 	width: 100vw;
 	height: 40vw;
+	overflow: hidden;
 }
 .box_people{
 	position: absolute;
@@ -413,6 +413,7 @@ body{
 		top: 0;
 		bottom: 0;
 		margin: auto;
+		line-height: 14vh;
 	}
 	.box_read_inside{
 		/* margin-top: 5vh; */
@@ -494,14 +495,14 @@ body{
 	.box_people_area{
 		position: relative;
 		width: 100vw;
-		height: 80vh;
+		height: 75vh;
 		display: flex;
 		justify-content: space-around;
 	}
 	.box_people{
 		position: absolute;
 		width: 82vw;
-		height: 80vh;
+		height: 75vh;
 		right: 0;
 		left: 0;
 		margin: auto;
@@ -509,13 +510,13 @@ body{
 	.box_katniss{
 		position: absolute;
 		width: 45vh;
-		max-height: 80vh;
+		max-height: 75vh;
 		/* margin-left: 5vw; */
 	}
 	.img_katniss{
 		position: absolute;
 		width: 45vh;
-		max-height: 80vh;
+		max-height: 75vh;
 		/* margin-left: 5vw; */
 	}
 	.word_katniss{
@@ -573,9 +574,9 @@ body{
 		opacity: 0.5;
 	}
 	.box_icon_dots{
-		position: fixed;
 		right: 2vw;
 		top: 40vh;
+		display: none;
 	}
 	.icon_dots{
 		width: 1.5vw;
@@ -652,14 +653,14 @@ body{
 	.box_katniss{
 		position: absolute;
 		width: 35vh;
-		max-width: 45vw;
+		max-width: 50vw;
 		max-height: 50vh;
 		/* margin-left: 5vw; */
 	}
 	.img_katniss{
 		position: absolute;
 		width: 35vh;
-		max-width: 45vw;
+		max-width: 50vw;
 		max-height: 50vh;
 		/* margin-left: 5vw; */
 	}
@@ -707,7 +708,7 @@ body{
 		color: #fff;
 		width: 15.5vw;
 		height: 4vw;
-		font-size: 1.3rem;
+		font-size: 1rem;
 		padding: 0.2vw 0;
 		box-sizing: border-box;
 		text-align: center;
@@ -718,6 +719,9 @@ body{
 		height: 4vw;
 		right: 0;
 		opacity: 0.5;
+	}
+	.box_icon_dots{
+		display: none;
 	}
 	.icon_dots{
 		width: 2vw;
@@ -752,6 +756,7 @@ body{
 		top: 0;
 		bottom: 0;
 		margin: auto;
+		line-height: 70px;
 	}
 	.box_word_inside{
 		top: 8vh;
@@ -936,6 +941,7 @@ body{
 	.box_icon_dots{
 		right: 2.5vw;
 		top: 40vh;
+		display: none;
 	}
 	.icon_dots{
 		width: 3vw;
