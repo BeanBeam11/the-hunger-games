@@ -58,6 +58,9 @@ body{
    background-repeat: no-repeat;
    background-position: center center;
  }
+ .box_img{
+   display: none;
+ }
  .box_gray{
    position: absolute;
    width: 30vw;
