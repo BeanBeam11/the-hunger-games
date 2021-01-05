@@ -38,7 +38,15 @@ body{
 	width: 66%;
 	padding-right: 40px;
 }
-
+.img_main_photo-box{
+	margin-top: 50px;
+	background-image: url(../img/The\ Hunger\ Games\ -\ In\ Arena.jpg);
+	width: 100%;
+	height: 100vh;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center center;
+}
 .img_main_photo{
 	width: 100vw;
 }
@@ -46,14 +54,14 @@ body{
 	position: relative;
 	background-color: #fff;
 	width: 100vw;
-	height: 100px;
+	height: 15vh;
 }
 .black_box{
 	position: relative;
 	background-color: #ffffff;
 	border: 1px solid #e5e5e5;
 	width: 100vw;
-	height: 100px;
+	height: 15vh;
 }
 .img_arrow_down{
 	position: absolute;
@@ -80,6 +88,11 @@ body{
 .box_inside{
 	position: relative;
 	width: 100vw;
+	background-image: url(../img/three_finger_salute_1.png);
+	height: 75vh;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center center;
 }
 .btn_inside{
 	font-family: 'Barlow Condensed', sans-serif;
@@ -146,6 +159,11 @@ body{
 /*quote 1*/
 .quote_1{
 	width: 100vw;
+	background-image: url(../img/quote_1_version2.jpg);
+	height: 80vh;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center center;
 }
 .img_quote_1{
 	width: 100vw;
@@ -248,6 +266,11 @@ body{
 /* quote 2*/
 .quote_2{
 	width: 100vw;
+	background-image: url(../img/quote_2_1_copy.png);
+	height: 80vh;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center center;
 }
 .img_quote_2{
 	width: 100vw;
@@ -282,6 +305,15 @@ body{
 	margin-left: 52vw;
 	margin-top: 60px;
 	color:  #212121;
+}
+/* quote 3 */
+.quote_3{
+	width: 100vw;
+	background-image: url(../img/quote_3_versiov2.jpg);	
+	height: 80vh;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center center;
 }
 
 /* Galleries */
@@ -391,6 +423,61 @@ body{
 	.img_arrow_top{
 		width: 45px;
 	}
+	.img_main_photo-box{
+		background-image: url(../img/The\ Hunger\ Games\ -\ In\ Arena.jpg);
+		width: 100%;
+		height: 65vh;
+		background-size: cover;
+		background-repeat: no-repeat;
+		background-position: center center;
+	}
+	.white_box{
+		position: relative;
+		background-color: #fff;
+		width: 100vw;
+		height: 10vh;
+	}
+	.black_box{
+		position: relative;
+		background-color: #ffffff;
+		border: 1px solid #e5e5e5;
+		width: 100vw;
+		height: 10vh;
+	}
+	.box_inside{
+		position: relative;
+		width: 100vw;
+		background-image: url(../img/three_finger_salute_1.png);
+		height: 45vh;
+		background-size: cover;
+		background-repeat: no-repeat;
+		background-position: center center;
+	}
+	.quote_1{
+		width: 100vw;
+		background-image: url(../img/quote_1_version2.jpg);
+		height: 50vh;
+		background-size: cover;
+		background-repeat: no-repeat;
+		background-position: center center;
+	}
+	.quote_2{
+		width: 100vw;
+		background-image: url(../img/quote_2_1_copy.png);
+		height: 50vh;
+		background-size: cover;
+		background-repeat: no-repeat;
+		background-position: center center;
+	}
+	.quote_3{
+		width: 100vw;
+		background-image: url(../img/quote_3_versiov2.jpg); 
+		height: 50vh;
+		background-size: cover;
+		background-repeat: no-repeat;
+		background-position: center center;
+	}
+	
 }
 @media screen and (max-width: 768px) {
 	html{
@@ -477,4 +564,66 @@ body{
 	.footer{
 		height: 150px;
 	}
+	.img_main_photo-box{
+		background-image: url(../img/The\ Hunger\ Games\ -\ In\ Arena.jpg);
+		width: 100%;
+		height: 35vh;
+		background-size: cover;
+		background-repeat: no-repeat;
+		background-position: center center;
+	}
+	.white_box{
+		position: relative;
+		background-color: #fff;
+		width: 100vw;
+		height: 8vh;
+	}
+	.black_box{
+		position: relative;
+		background-color: #ffffff;
+		border: 1px solid #e5e5e5;
+		width: 100vw;
+		height: 8vh;
+	}
+	.box_inside{
+		position: relative;
+		width: 100vw;
+		background-image: url(../img/three_finger_salute_1.png);
+		height: 25vh;
+		background-size: cover;
+		background-repeat: no-repeat;
+		background-position: center center;
+	}
+	.quote_1{
+		width: 100vw;
+		background-image: url(../img/quote_1_version2.jpg);
+		height: 20vh;
+		background-size: cover;
+		background-repeat: no-repeat;
+		background-position: center center;
+	}
+	.quote_2{
+		width: 100vw;
+		background-image: url(../img/quote_2_1_copy.png);
+		height: 20vh;
+		background-size: cover;
+		background-repeat: no-repeat;
+		background-position: center center;
+	}
+	.quote_3{
+		width: 100vw;
+		background-image: url(../img/quote_3_versiov2.jpg); 
+		height: 20vh;
+		background-size: cover;
+		background-repeat: no-repeat;
+		background-position: center center;
+	}
+	.box_people_area{
+		/* width: 70vw; */
+		height: 35vh;
+		right: 0;
+		left: 0;
+		margin: auto;
+	}
+	
 }
