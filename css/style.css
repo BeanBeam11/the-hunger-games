@@ -395,7 +395,7 @@ body{
 }
 .word_copyright{
 	color: #8a8174;
-	font-size: 0.5rem;
+	font-size: 11.5px;
 }
 /* iPad version RWD */
 @media screen and (max-width: 1024px) {
