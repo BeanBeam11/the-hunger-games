@@ -67,7 +67,7 @@ body{
     color: #fff;
     width: 8vw;
     height: 3.5vw;
-    font-size: 2rem;
+    font-size: 1.8rem;
     font-family: 'Barlow Condensed', sans-serif;
     margin-top: 0.5vw;
     margin-left: 0.2vw;
@@ -135,7 +135,7 @@ body{
 /* iPad version */
 @media screen and (max-width: 1024px){
     .container{
-        height: 350vh;
+        height: 200vh;
     }
     .bgi{
         width: 100vw;
@@ -143,7 +143,7 @@ body{
     .box_people{
         position: absolute;
         width: 100vw;
-        height: 350vh;
+        height: 200vh;
         right: 0;
         left: 0;
         margin: auto;
@@ -229,16 +229,16 @@ body{
 }
 @media screen and (max-width: 768px){
     .container{
-        height: 250vh;
+        height: 200vh;
     }
     .box_people{
-        height: 250vh;
+        height: 200vh;
     }
 }
 /* iPhone version */
 @media screen and (max-width: 480px){
     .container{
-        height: 200vh;
+        height: 150vh;
     }
     .bgi{
         width: 100vw;
@@ -246,7 +246,7 @@ body{
     .box_people{
         position: absolute;
         width: 100vw;
-        height: 200vh;
+        height: 150vh;
         right: 0;
         left: 0;
         margin: auto;

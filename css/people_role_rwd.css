@@ -6,11 +6,17 @@
         margin: auto;
         width: 85vw;
     }
-    
+    .bg_img {
+        position: absolute;
+        width: 100vw;
+        height: 100vh;
+        background-repeat: repeat;
+        background-size: 20vw auto;
+    }
     .box_katniss_explain{
         position: absolute;
         width: 50vw;
-        height: 150vh;
+        height: 60vh;
         margin-top: 5vw;
         margin-left: 35vw;
         background-image: url(../img/bg_black.png);
@@ -105,6 +111,24 @@
         height: 30vw;
     }
 }
+@media screen and (max-width: 768px){
+    .bg_img {
+        position: absolute;
+        width: 100vw;
+        height: 150vh;
+        background-repeat: repeat;
+        background-size: 20vw auto;
+    }
+    .box_katniss_explain{
+        position: absolute;
+        width: 50vw;
+        height: 80vh;
+        margin-top: 5vw;
+        margin-left: 35vw;
+        background-image: url(../img/bg_black.png);
+        background-repeat: repeat;
+    }
+}
 /* iPhone version */
 @media screen and (max-width: 480px){
     .bg_img {
@@ -125,11 +149,7 @@
         background-image: url(../img/bg_black.png);
         background-repeat: repeat;
     }
-    .img_bgi_black{
-        position: absolute;
-        width: 80vw;
-        /* overflow: hidden; */
-    }
+    
     .explain{
         position: absolute;
         color: #fff;
