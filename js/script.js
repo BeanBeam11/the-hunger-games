@@ -24,6 +24,15 @@ for(let i=1; i<=5; i++){
 
 /* map */ 
 
+$(document).ready(function(e) {
+	$('img[usemap]').rwdImageMaps();
+
+	/* popup window */
+	// $('area').on('click', function() {
+	// 	alert($(this).attr('alt') + 'clicked');
+	// 	});
+});
+
 $(document).ready(function(){
 	for(let i=1; i<=13; i++)
 	$('.district_'+i).click(function(){
