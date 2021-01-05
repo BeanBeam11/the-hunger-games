@@ -22,77 +22,92 @@ $(document).ready(function(){
 	// 	$('.word_map_12').html("District 9 - Grain")
 	// 	$('.box_map_explain').toggleClass('menu-click')
 	// });
+
 	$('.district_1').click(function(){
 		$('.word_map_12').html("District 1 - Luxury")
-		$('.box_district_img').css('background-image', 'url(' + '/img/district_1.jpg' + ')');
+		let src_img = $('.img_d_1').attr("src")
+		$('.box_district_img').css('background-image', 'url(' + src_img + ')');
 		$('.box_map_explain').toggleClass('menu-click')
 	});
 	$('.district_2').click(function(){
 		$('.word_map_12').html("District 2 - Masonry")
-		$('.box_district_img').css('background-image', 'url(' + '/img/2.png' + ')');
+		let src_img = $('.img_d_2').attr("src")
+		$('.box_district_img').css('background-image', 'url(' + src_img + ')');
 		$('.box_map_explain').toggleClass('menu-click')
 	});
 	$('.district_3').click(function(){
 		$('.word_map_12').html("District 3 - Technology")
-		$('.box_district_img').css('background-image', 'url(' + '/img/district_3.jpg' + ')');
+		let src_img = $('.img_d_3').attr("src")
+		$('.box_district_img').css('background-image', 'url(' + src_img + ')');
 		$('.box_map_explain').toggleClass('menu-click')
 	});
 	$('.district_4').click(function(){
 		$('.word_map_12').html("District 4 - Fishing")
-		$('.box_district_img').css('background-image', 'url(' + '/img/district_4.jpg' + ')');
+		let src_img = $('.img_d_4').attr("src")
+		$('.box_district_img').css('background-image', 'url(' + src_img + ')');
 		$('.box_map_explain').toggleClass('menu-click')
 	});
 	$('.district_5').click(function(){
 		$('.word_map_12').html("District 5 - Power")
-		$('.box_district_img').css('background-image', 'url(' + '/img/5.png' + ')');
+		let src_img = $('.img_d_5').attr("src")
+		$('.box_district_img').css('background-image', 'url(' + src_img + ')');
 		$('.box_map_explain').toggleClass('menu-click')
 	});
 	$('.district_6').click(function(){
 		$('.word_map_12').html("District 6 - Transportation")
-		$('.box_district_img').css('background-image', 'url(' + '/img/6.png' + ')');
+		let src_img = $('.img_d_6').attr("src")
+		$('.box_district_img').css('background-image', 'url(' + src_img + ')');
 		$('.box_map_explain').toggleClass('menu-click')
 	});
 	$('.district_7').click(function(){
 		$('.word_map_12').html("District 7 - Lumber")
-		$('.box_district_img').css('background-image', 'url(' + '/img/7.png' + ')');
+		let src_img = $('.img_d_7').attr("src")
+		$('.box_district_img').css('background-image', 'url(' + src_img + ')');
 		$('.box_map_explain').toggleClass('menu-click')
 	});
 	$('.district_8').click(function(){
 		$('.word_map_12').html("District 8 - Textiles")
-		$('.box_district_img').css('background-image', 'url(' + '/img/8.png' + ')');
+		let src_img = $('.img_d_8').attr("src")
+		$('.box_district_img').css('background-image', 'url(' + src_img + ')');
 		$('.box_map_explain').toggleClass('menu-click')
 	});
 	$('.district_9').click(function(){
 		$('.word_map_12').html("District 9 - Grain")
-		$('.box_district_img').css('background-image', 'url(' + '/img/9.png' + ')');
+		let src_img = $('.img_d_9').attr("src")
+		$('.box_district_img').css('background-image', 'url(' + src_img + ')');
 		$('.box_map_explain').toggleClass('menu-click')
 	});
 	$('.district_10').click(function(){
 		$('.word_map_12').html("District 10 - Livestock")
-		$('.box_district_img').css('background-image', 'url(' + '/img/10.png' + ')');
+		let src_img = $('.img_d_10').attr("src")
+		$('.box_district_img').css('background-image', 'url(' + src_img + ')');
 		$('.box_map_explain').toggleClass('menu-click')
 	});
 	$('.district_11').click(function(){
 		$('.word_map_12').html("District 11 - Agriculture")
-		$('.box_district_img').css('background-image', 'url(' + '/img/district_11.png' + ')');
+		let src_img = $('.img_d_11').attr("src")
+		$('.box_district_img').css('background-image', 'url(' + src_img + ')');
 		$('.box_map_explain').toggleClass('menu-click')
 	});
 	$('.district_12').click(function(){
 		$('.word_map_12').html("District 12 - Coal")
-		$('.box_district_img').css('background-image', 'url(' + '/img/district_12.jpg' + ')');
+		let src_img = $('.img_d_12').attr("src")
+		$('.box_district_img').css('background-image', 'url(' + src_img + ')');
 		$('.box_map_explain').toggleClass('menu-click')
 	});
 	$('.district_13').click(function(){
 		$('.word_map_12').html("District 13 - Nuclear")
-		$('.box_district_img').css('background-image', 'url(' + '/img/district_13.jpg' + ')');
+		let src_img = $('.img_d_13').attr("src")
+		$('.box_district_img').css('background-image', 'url(' + src_img + ')');
 		$('.box_map_explain').toggleClass('menu-click')
 	});
 	$('.district_c').click(function(){
 		$('.word_map_12').html("The Capitol")
-		$('.box_district_img').css('background-image', 'url(' + '/img/district_c.jpg' + ')');
+		let src_img = $('.img_d_c').attr("src")
+		$('.box_district_img').css('background-image', 'url(' + src_img + ')');
 		$('.box_map_explain').toggleClass('menu-click')
 	});
-
+	
 
 	/* map hover - maphilight */ 
 	$.fn.maphilight.defaults = {
