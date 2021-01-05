@@ -108,30 +108,32 @@ body{
 
 .box_word_inside{
 	position: absolute;
+	display: flex;
+	flex-direction: column;
 	left: 18vw;
 	top: 15vw;
 	width: 50vw;
-	height: 20vw;
+	height: 20vh;
 }
 .word_inside{
-	position: absolute;
+	/* position: absolute; */
 	font-family:Times;
-	font-size: 2rem;
+	font-size: 2.3rem;
 	color: #ffffff;
 	margin: 0;
 	text-shadow: 0.1em 0.1em 0.05em #333;
 }
 .box_read_inside{
-	position :absolute;
+	/* position :absolute; */
 	width: 150px;
 	height: 25px;
 	text-align: center;
 	outline: 1px solid #fff;
 	box-sizing: border-box;
-	margin-top: 5vw;
+	margin-top: 2vw;
 }
 .word_read_inside{
-	position :absolute;
+	/* position :absolute; */
 	text-decoration: none;
 	color: #ffffff;
 	font-size: 0.75rem;
@@ -149,13 +151,7 @@ body{
 .img_three_finger_salute{
 	width: 100vw;
 }
-.img_arrow{
-	display:flex;
-	position:relative;
-	vertical-align:bottom;
-	justify-content:center;
-	margin-left: 45vw;
-}
+
 /*quote 1*/
 .quote_1{
 	width: 100vw;
@@ -168,16 +164,19 @@ body{
 .img_quote_1{
 	width: 100vw;
 }
+.box_word_quote1{
+	position: absolute;
+	width: 40vw;
+	height: 80vh;
+	margin-left: 15vw;
+}
 .word_quote1{
 	position: absolute;
-	width: 30vw;
-	height: 10vw;
 	font-family:Times;
-	font-size: 2rem;
+	font-size: 2.5rem;
 	color: #ffffff;
 	text-shadow: 0.1em 0.1em 0.05em #333;
-	margin-left: 18vw;
-	margin-top: 10vw;
+	margin-top: 25vh;
 }
 
 /* People */
@@ -291,21 +290,6 @@ body{
 	left: 0;
 	margin: auto;
 }
-.to_top{
-	display:flex;
-}
-.back_to_top{
-	position: absolute;
-	font-family: 'Barlow Condensed', sans-serif;
-	font-size: 1rem;
-	width: 150px;
-	height: 20px;
-	text-align: center;
-	display: block;
-	margin-left: 52vw;
-	margin-top: 60px;
-	color:  #212121;
-}
 /* quote 3 */
 .quote_3{
 	width: 100vw;
@@ -315,6 +299,7 @@ body{
 	background-repeat: no-repeat;
 	background-position: center center;
 }
+
 
 /* Galleries */
 .galleries_box{
@@ -359,6 +344,23 @@ body{
 	background-color: #e5e9dc;
 	padding: 20px 40px;
 	font-size: 0.5rem;
+}
+
+/* back to top */
+.to_top{
+	display:flex;
+}
+.back_to_top{
+	position: absolute;
+	font-family: 'Barlow Condensed', sans-serif;
+	font-size: 1rem;
+	width: 150px;
+	height: 20px;
+	text-align: center;
+	display: block;
+	margin-left: 52vw;
+	margin-top: 60px;
+	color:  #212121;
 }
 
 /* Footer */
@@ -409,19 +411,27 @@ body{
 		bottom: 0;
 		margin: auto;
 	}
-	.word_quote1{
+	.box_read_inside{
+		/* margin-top: 5vh; */
+	}
+	.box_word_quote1{
+		height: 50vh;
 		width: 45vw;
-		margin-left: 15vw;
-		/* margin-top: 10vw; */
+	}
+	.word_quote1{
+		position: absolute;
+		width: 45vw;
+		font-size: 2.5rem;
+		margin-top: 15vh;
 	}
 	.box_name{
 		font-size: 1rem;
 	}
 	.img_arrow_down{
-		width: 45px;
+		width: 4vh;
 	}
 	.img_arrow_top{
-		width: 45px;
+		width: 4vh;
 	}
 	.img_main_photo-box{
 		background-image: url(../img/The\ Hunger\ Games\ -\ In\ Arena.jpg);
@@ -435,7 +445,7 @@ body{
 		position: relative;
 		background-color: #fff;
 		width: 100vw;
-		height: 10vh;
+		height: 14vh;
 	}
 	.black_box{
 		position: relative;
@@ -477,20 +487,102 @@ body{
 		background-repeat: no-repeat;
 		background-position: center center;
 	}
+	/* People */
+	.box_people_area{
+		position: relative;
+		width: 100vw;
+		height: 80vh;
+		display: flex;
+		justify-content: space-around;
+	}
+	.box_people{
+		position: absolute;
+		width: 82vw;
+		height: 80vh;
+		right: 0;
+		left: 0;
+		margin: auto;
+	}
+	.box_katniss{
+		position: absolute;
+		width: 45vh;
+		max-height: 80vh;
+		/* margin-left: 5vw; */
+	}
+	.img_katniss{
+		position: absolute;
+		width: 45vh;
+		max-height: 80vh;
+		/* margin-left: 5vw; */
+	}
+	.word_katniss{
+		position: absolute;
+		font-family: 'Barlow Condensed', sans-serif;
+		font-size: 2.5rem;
+		color: #fff;
+		margin-top: 18vh;
+		left: 5vw;
+	}
+	.box_people_4{
+		position: absolute;
+		display: flex;
+		flex-wrap: wrap;
+		min-width: 45vw;
+		height: 50vh;
+		font-size: 0;
+		margin-left: 47vh;
+	}
+	.box_peeta{
+		width: 20vw;
+		height: 20vw;
+		margin-right: 1.5vw;
+		margin-bottom: 10vh;
+	}
+	.box_haymitch{
+		width: 20vw;
+		height: 20vw;
+		margin-right: 1.5vw;
+	}
+	.img{
+		width: 20vw;
+	}
+	.gray_box{
+		position: absolute;
+		width: 20vw;
+		height: 5vw;
+		background-color: #8a8174;
+	}
+	.box_name{
+		position: absolute;
+		color: #fff;
+		width: 15.5vw;
+		height: 5vw;
+		font-size: 1.3rem;
+		padding: 0.2vw 0;
+		box-sizing: border-box;
+		text-align: center;
+	}
+	.material-icons{
+		position: absolute;
+		width: 5vw;
+		height: 5vw;
+		right: 0;
+		opacity: 0.5;
+	}
 	
 }
 @media screen and (max-width: 768px) {
 	html{
 		font-size: 15px;
 	}
-	.word_quote1{
-		font-size: 1.5rem;
-	}
 	/* main */
 	.box_word_inside{
 		position: absolute;
-		top: 12vw;
+		top: 20vh;
 		left: 15vw;
+	}
+	.word_inside{
+		font-size: 1.5rem;
 	}
 	.box_read_inside{
 		position: absolute;
@@ -498,11 +590,14 @@ body{
 		height: 4vw;
 		margin-top: 8vw;
 	}
-	.word_inside{
-		font-size: 1.5rem;
+	.box_word_quote1{
+		position: absolute;
+		width: 40vw;
+		height: 50vh;
+		margin-left: 15vw;
 	}
 	.word_quote1{
-		font-size: 1.2rem;
+		font-size: 2.2rem;
 	}
 	.word_katniss{
 		font-size: 1.2rem;
@@ -512,6 +607,96 @@ body{
 	}
 	.footer{
 		height: 150px;
+	}
+	.white_box{
+		height: 14vh;	
+	}
+
+	/* People */
+	.box_people_area{
+		position: relative;
+		width: 100vw;
+		height: 50vh;
+		display: flex;
+		justify-content: space-around;
+	}
+	.box_people{
+		position: absolute;
+		width: 85vw;
+		height: 50vh;
+		right: 0;
+		left: 0;
+		margin: auto;
+	}
+	.box_katniss{
+		position: absolute;
+		width: 35vh;
+		max-width: 45vw;
+		max-height: 50vh;
+		/* margin-left: 5vw; */
+	}
+	.img_katniss{
+		position: absolute;
+		width: 35vh;
+		max-width: 45vw;
+		max-height: 50vh;
+		/* margin-left: 5vw; */
+	}
+	.word_katniss{
+		position: absolute;
+		font-family: 'Barlow Condensed', sans-serif;
+		font-size: 2.5rem;
+		color: #fff;
+		margin-top: 7.5vh;
+		left: 5vw;
+	}
+	.box_people_4{
+		position: absolute;
+		margin-left: 37vh;
+		display: flex;
+		flex-wrap: wrap;
+		/* justify-content: space-around; */
+		min-width: 45vw;
+		height: 30vh;
+		font-size: 0;
+		box-sizing: border-box;
+	}
+	.box_peeta{
+		width: 20vw;
+		height: 20vw;
+		margin-right: 1.5vw;
+		margin-bottom: 5vh;
+	}
+	.box_haymitch{
+		width: 20vw;
+		height: 20vw;
+		margin-right: 1.5vw;
+	}
+	.img{
+		width: 20vw;
+	}
+	.gray_box{
+		position: absolute;
+		width: 20vw;
+		height: 4vw;
+		background-color: #8a8174;
+	}
+	.box_name{
+		position: absolute;
+		color: #fff;
+		width: 15.5vw;
+		height: 4vw;
+		font-size: 1.3rem;
+		padding: 0.2vw 0;
+		box-sizing: border-box;
+		text-align: center;
+	}
+	.material-icons{
+		position: absolute;
+		width: 4vw;
+		height: 4vw;
+		right: 0;
+		opacity: 0.5;
 	}
 }
 /* iPhone version RWD */
@@ -534,21 +719,26 @@ body{
 		margin: auto;
 	}
 	.box_word_inside{
-		position: absolute;
+		top: 8vh;
+		min-width: 40vw;
+	}
+	.word_inside{
+		font-size: 2.5rem;
 	}
 	.box_read_inside{
-		position: absolute;
+		/* position: absolute; */
 		width: 24vw;
 		height: 4vw;
-		margin-top: 7vw;
+		/* margin-top: 7vw; */
 	}
 	.word_read_inside{
-		position: absolute;
+		/* position: absolute; */
+	}
+	.box_word_quote1{
+		height: 20vh;
 	}
 	.word_quote1{
-		width: 45vw;
-		margin-left: 15vw;
-		/* margin-top: 10vw; */
+		margin-top: 7vh;
 		font-size: 2rem;
 	}
 	.img_arrow_down{
@@ -618,12 +808,99 @@ body{
 		background-repeat: no-repeat;
 		background-position: center center;
 	}
+
+	/* People */
 	.box_people_area{
-		/* width: 70vw; */
-		height: 35vh;
+		position: relative;
+		width: 100vw;
+		height: 30vh;
+		display: flex;
+		justify-content: space-around;
+	}
+	.box_people{
+		position: absolute;
+		width: 85vw;
+		height: 30vh;
 		right: 0;
 		left: 0;
 		margin: auto;
 	}
-	
+	.box_katniss{
+		position: absolute;
+		width: 20vh;
+		max-width: 45vw;
+		max-height: 30vh;
+		/* margin-left: 5vw; */
+	}
+	.img_katniss{
+		position: absolute;
+		width: 20vh;
+		max-width: 45vw;
+		max-height: 30vh;
+		/* margin-left: 5vw; */
+	}
+	.word_katniss{
+		position: absolute;
+		font-family: 'Barlow Condensed', sans-serif;
+		font-size: 2.5rem;
+		color: #fff;
+		margin-top: 7.5vh;
+		left: 5vw;
+	}
+	.word_katniss:hover{
+		opacity: 0.5;
+	}
+	.box_people_4{
+		position: absolute;
+		margin-left: 22vh;
+		display: flex;
+		flex-wrap: wrap;
+		/* justify-content: space-around; */
+		min-width: 45vw;
+		height: 30vh;
+		font-size: 0;
+		box-sizing: border-box;
+	}
+	.box_peeta{
+		width: 20vw;
+		height: 20vw;
+		margin-right: 1.5vw;
+		margin-bottom: 1.5vw;
+	}
+	.box_haymitch{
+		width: 20vw;
+		height: 20vw;
+		margin-right: 1.5vw;
+	}
+	.img{
+		width: 20vw;
+	}
+	.gray_box{
+		position: absolute;
+		width: 20vw;
+		height: 4vw;
+		background-color: #8a8174;
+	}
+	.box_name{
+		position: absolute;
+		color: #fff;
+		width: 15.5vw;
+		height: 4vw;
+		font-size: 1.3rem;
+		padding: 0.2vw 0;
+		box-sizing: border-box;
+		text-align: center;
+	}
+	.material-icons{
+		position: absolute;
+		width: 4vw;
+		height: 4vw;
+		right: 0;
+		opacity: 0.5;
+	}
+}
+@media screen and (max-width: 320px) {
+	.box_people_4{
+		margin-left: 19vh;
+	}
 }
