@@ -569,7 +569,25 @@ body{
 		right: 0;
 		opacity: 0.5;
 	}
-	
+	.box_icon_dots{
+		position: fixed;
+		right: 2vw;
+		top: 40vh;
+	}
+	.icon_dots{
+		width: 1.5vw;
+		margin-top: 1.5vw;
+	}
+	.icon_dots_1{
+		width: 1.5vw;
+		margin-top: 1.5vw;
+		display: block;
+	}
+	.icon_dots_2{
+		width: 1.5vw;
+		margin-top: 1.5vw;
+		display: none;
+	}
 }
 @media screen and (max-width: 768px) {
 	html{
@@ -697,6 +715,20 @@ body{
 		height: 4vw;
 		right: 0;
 		opacity: 0.5;
+	}
+	.icon_dots{
+		width: 2vw;
+		margin-top: 2vw;
+	}
+	.icon_dots_1{
+		width: 2vw;
+		margin-top: 2vw;
+		display: block;
+	}
+	.icon_dots_2{
+		width: 2vw;
+		margin-top: 2vw;
+		display: none;
 	}
 }
 /* iPhone version RWD */
@@ -897,6 +929,24 @@ body{
 		height: 4vw;
 		right: 0;
 		opacity: 0.5;
+	}
+	.box_icon_dots{
+		right: 2.5vw;
+		top: 40vh;
+	}
+	.icon_dots{
+		width: 3vw;
+		margin-top: 3vw;
+	}
+	.icon_dots_1{
+		width: 3vw;
+		margin-top: 3vw;
+		display: block;
+	}
+	.icon_dots_2{
+		width: 3vw;
+		margin-top: 3vw;
+		display: none;
 	}
 }
 @media screen and (max-width: 320px) {
