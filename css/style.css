@@ -368,7 +368,7 @@ body{
 	width: 100vw;
 	height: 120px;
 	text-align: center;
-	font-size: 0.7rem;
+	/* font-size: 0.7rem; */
 	background-color: #212121;
 	padding: 30px 5vw 20px 5vw;
 	box-sizing: border-box;
