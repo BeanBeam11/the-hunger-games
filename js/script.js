@@ -23,6 +23,7 @@ for(let i=1; i<=5; i++){
 }
 
 /* map */ 
+
 $(document).ready(function(){
 	for(let i=1; i<=13; i++)
 	$('.district_'+i).click(function(){
@@ -31,4 +32,20 @@ $(document).ready(function(){
 	$('.district_c').click(function(){
 		$('.box_map_explain').toggleClass('menu-click')
 	});
+	/* map hover - maphilight */ 
+	$.fn.maphilight.defaults = {
+		fill: true,
+		fillColor: '000000',
+		fillOpacity: 0.2,
+		stroke: true,
+		strokeColor: 'ff0000',
+		strokeOpacity: 0,
+		strokeWidth: 1,
+		fade: true,
+		alwaysOn: false
+	}
+	$(function() {
+		$('.map').maphilight();
+	});
 });
+
