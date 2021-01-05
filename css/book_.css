@@ -38,6 +38,7 @@ body {
   width: calc(var(--baseline) * 60);
   height: calc(var(--baseline) * 42.6);
   box-shadow: 0 0 100px rgba(255, 255, 255, 0.3);
+  overflow: hidden;
 }
 /* .cover{
     width: 700px;
@@ -113,7 +114,7 @@ body {
   font-family: var(--book-title);
   font-size: calc(var(--base-size) * 3);
   font-weight: bold;
-  text-transform: uppercase;
+  /* text-transform: uppercase; */
   letter-spacing: 3px;
   color: var(--dark-text);
   margin-top: calc(var(--baseline) * 5);
@@ -123,7 +124,7 @@ body {
   font-family: var(--title);
   font-size: calc(var(--base-size) * 1.2);
   font-weight: 100;
-  text-transform: uppercase;
+  /* text-transform: uppercase; */
   color: var(--dark-text);
   border-top: 1px solid var(--dark-text);
   border-bottom: 1px solid var(--dark-text);
@@ -133,7 +134,7 @@ body {
 }
 .book__page .page__content-credits {
   font-family: var(--title);
-  text-transform: uppercase;
+  /* text-transform: uppercase; */
   font-size: calc(var(--base-size) * 0.8);
   margin-bottom: calc(var(--baseline) * 2);
   letter-spacing: 1px;
@@ -149,12 +150,12 @@ body {
   bottom: calc(var(--baseline) * 2);
   font-family: var(--title);
   font-size: calc(var(--base-size) * 0.8);
-  text-transform: uppercase;
+  /* text-transform: uppercase; */
 }
 .book__page .page__content-title {
   font-family: var(--title);
   font-size: calc(var(--base-size) * 1);
-  text-transform: uppercase;
+  /* text-transform: uppercase; */
   letter-spacing: 1px;
   margin-top: calc(var(--baseline) * 5);
   margin-bottom: calc(var(--baseline) * 3);
@@ -167,7 +168,7 @@ body {
   font-family: var(--title);
   font-size: calc(var(--base-size) * 1);
   padding-bottom: calc(var(--baseline) * 1.5);
-  text-transform: uppercase;
+  /* text-transform: uppercase; */
 }
 .book__page .page__content-blockquote {
   margin-bottom: calc(var(--baseline) * 2);
@@ -183,7 +184,7 @@ body {
   font-size: calc(var(--base-size) * 0.7);
   margin-top: calc(var(--baseline) * 0.3);
   float: right;
-  text-transform: uppercase;
+  /* text-transform: uppercase; */
 }
 .book__page .page__content-text {
   font-family: var(--title);
@@ -207,3 +208,47 @@ body {
   transform: rotateY(-180deg);
 }
 
+/* add */
+@import url('https://fonts.googleapis.com/css2?family=BenchNine:wght@300;400;700&display=swap');
+
+.box{
+  position: absolute;
+  right: 0;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+  width: 100px;
+  height: 50px;
+  letter-spacing: 1.1px;
+  text-align: center;
+}
+p{
+  padding: 0;
+  margin: 0;
+}
+.part_1{
+  position: absolute;
+  font-family: 'BenchNine', sans-serif;
+  font-weight: 700;
+  font-size: 24px;
+  width: 100px;
+}
+.chapter{
+  position: absolute;
+  font-family: 'BenchNine', sans-serif;
+  font-size: 12px;
+  width: 100px;
+  margin-top: 3px;
+}
+.page__content-table{
+  padding: 0 30px;
+}
+.page__content-title_img img{
+  position: relative;
+  height: 70px;
+  right: 0;
+  margin-top: 30px;
+  margin-bottom: 40px;
+  right: 0;
+}
