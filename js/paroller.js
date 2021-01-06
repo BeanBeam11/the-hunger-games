@@ -8,3 +8,34 @@ $(".paroller, [data-paroller-factor]").paroller({
 	direction: 'vertical', // vertical, horizontal
 	transition: 'transform 0.2s ease-in'
 });
+
+/* ScollTrigger */
+// gasp.registerPlugin(ScrollTrigger);
+
+// gsap.to("#quote_3",{
+// 	scrollTrigger:{
+// 		trigger: "#quote_3",
+// 		pin: true,
+// 		start: "center center",
+// 		end: "+=200",
+// 		scrub: true,
+// 		markers: true,
+// 		id: "quote_1",
+// 		toggleClass: {
+// 			targets: "#quote_3",
+// 			className: "jumbotron"}
+// 	}
+// });
+
+// let timeLine = new gsap.timeline({
+// 	scollTrigger:{
+// 		trigger: "#quote_1",
+// 		pin: true,
+// 		start: "center center",
+// 		end: "+=200",
+// 		scrub: true,
+// 		markers: true,
+// 		id: "quote_1",
+// 	},
+// });
+// timeLine.to('#quote_1',1,{})

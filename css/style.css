@@ -92,6 +92,7 @@ a{
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: center center;
+	overflow: hidden;
 }
 .btn_inside{
 	font-family: 'Barlow Condensed', sans-serif;
@@ -160,6 +161,7 @@ a{
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: center center;
+	overflow: hidden;
 }
 .img_quote_1{
 	width: 100vw;
@@ -177,6 +179,12 @@ a{
 	color: #ffffff;
 	text-shadow: 0.1em 0.1em 0.05em #333;
 	margin-top: 45vh;
+}
+.quote_2 .word_quote1{
+	margin-top: 65vh;
+}
+.quote_3 .word_quote1{
+	margin-top: 85vh;
 }
 
 /* People */
@@ -271,6 +279,7 @@ a{
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: center center;
+	overflow: hidden;
 }
 .img_quote_2{
 	width: 100vw;
@@ -299,6 +308,7 @@ a{
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: center center;
+	overflow: hidden;
 }
 
 
@@ -611,6 +621,18 @@ a{
 	html{
 		font-size: 15px;
 	}
+	.box_word_inside{
+		margin-top: 5vh;
+	}
+	.quote_1 .word_quote1{
+		margin-top: 35vh;
+	}
+	.quote_2 .word_quote1{
+		margin-top: 60vh;
+	}
+	.quote_3 .word_quote1{
+		margin-top: 85vh;
+	}
 	.img_arrow_down{
 		width: 7vw;
 	}
@@ -762,6 +784,18 @@ a{
 	html{
 		font-size: 10px;
 		max-width: 100%;
+	}
+	.box_word_inside{
+		margin-top: 5vh;
+	}
+	.quote_1 .word_quote1{
+		margin-top: 10vh;
+	}
+	.quote_2 .word_quote1{
+		margin-top: 20vh;
+	}
+	.quote_3 .word_quote1{
+		margin-top: 25vh;
 	}
 	/* Main area */
 	.white_box{
