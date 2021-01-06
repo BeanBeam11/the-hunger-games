@@ -20,6 +20,9 @@ body{
 	margin: auto;
 	background-color: #ffffff;
 }
+a{
+	text-decoration: none;
+}
 
 
 
@@ -404,6 +407,12 @@ body{
 		font-size: 20px;
 		max-width: 100%;
 	}
+	.box_word_inside{
+		top: 25vw;
+	}
+	.word_inside{
+		font-size: 2.8rem;
+	}
 	.btn_inside{
 		position: absolute;
 		right: 0;
@@ -412,6 +421,7 @@ body{
 		bottom: 0;
 		margin: auto;
 		line-height: 14vh;
+		font-size: 3.5rem;
 	}
 	.box_read_inside{
 		/* margin-top: 5vh; */
@@ -430,10 +440,10 @@ body{
 		font-size: 1rem;
 	}
 	.img_arrow_down{
-		width: 4vh;
+		width: 5vh;
 	}
 	.img_arrow_top{
-		width: 4vh;
+		width: 5vh;
 	}
 	.img_main_photo-box{
 		background-image: url(../img/The\ Hunger\ Games\ -\ In\ Arena_m.jpg);
@@ -494,27 +504,27 @@ body{
 	.box_people_area{
 		position: relative;
 		width: 100vw;
-		height: 75vh;
+		height: 45vh;
 		display: flex;
 		justify-content: space-around;
 	}
 	.box_people{
 		position: absolute;
 		width: 82vw;
-		height: 75vh;
+		height: 45vh;
 		right: 0;
 		left: 0;
 		margin: auto;
 	}
 	.box_katniss{
 		position: absolute;
-		width: 45vh;
+		width: 30vh;
 		max-height: 75vh;
 		/* margin-left: 5vw; */
 	}
 	.img_katniss{
 		position: absolute;
-		width: 45vh;
+		width: 30vh;
 		max-height: 75vh;
 		/* margin-left: 5vw; */
 	}
@@ -523,7 +533,7 @@ body{
 		font-family: 'Barlow Condensed', sans-serif;
 		font-size: 2.5rem;
 		color: #fff;
-		margin-top: 18vh;
+		margin-top: 15vh;
 		left: 5vw;
 	}
 	.box_people_4{
@@ -531,15 +541,15 @@ body{
 		display: flex;
 		flex-wrap: wrap;
 		min-width: 45vw;
-		height: 50vh;
+		height: 45vh;
 		font-size: 0;
-		margin-left: 47vh;
+		margin-left: 32vh;
 	}
 	.box_peeta{
 		width: 20vw;
 		height: 20vw;
 		margin-right: 1.5vw;
-		margin-bottom: 10vh;
+		/* margin-bottom: 5vh; */
 	}
 	.box_haymitch{
 		width: 20vw;
@@ -603,7 +613,7 @@ body{
 		left: 15vw;
 	}
 	.word_inside{
-		font-size: 1.5rem;
+		font-size: 2rem;
 	}
 	.box_read_inside{
 		position: absolute;
@@ -619,12 +629,7 @@ body{
 	}
 	.word_quote1{
 		font-size: 2.2rem;
-	}
-	.word_katniss{
-		font-size: 1.2rem;
-	}
-	.box_name{
-		font-size: 0.7rem;
+		margin-top: 16vh;
 	}
 	.footer{
 		height: 150px;
@@ -668,7 +673,7 @@ body{
 		font-family: 'Barlow Condensed', sans-serif;
 		font-size: 2.5rem;
 		color: #fff;
-		margin-top: 7.5vh;
+		margin-top: 18vh;
 		left: 5vw;
 	}
 	.box_people_4{
