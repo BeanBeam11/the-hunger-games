@@ -76,7 +76,7 @@ body{
     position: relative;
     width: 18vw;
     /* offset-x | offset-y | blur-radius | spread-radius | color */
-    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.5);
+    box-shadow: 2px 2px 10px 1px rgba(255, 255, 255, 0.3);
 }
 @media screen and (max-width: 1024px) {
     .cover_1{
@@ -93,7 +93,7 @@ body{
         height: 100vh;    
         background-repeat: no-repeat;
         background-size: cover;
-        background-position: center left;
+        background-position: center center;
     }
     .cover_3{
         display: none;
@@ -105,13 +105,13 @@ body{
         position: absolute;
         margin-top: 100px;
         width: 70vw;
-        height: calc(100vh - 50px);
         display: flex;
         flex-wrap: nowrap;
         justify-content: space-between;
         right: 0;
         left: 0;
         margin: auto;
+        margin-top: 30vh;
     }
     .img{
         position: absolute;
