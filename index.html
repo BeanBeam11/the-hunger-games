@@ -14,6 +14,7 @@
 	<link rel="stylesheet" type="text/css" href="slick/slick.css"/>	
 	<link rel="stylesheet" type="text/css" href="slick/slick-theme.css"/>
 	<script src="js/jquery.js"></script>
+	<script src="jquery.paroller.min.js"></script>
 </head>
 
 <body>
@@ -74,7 +75,7 @@
 		</div>
 		<div class="box_inside">
 			<!-- <img class="img_three_finger_salute" src="img/three_finger_salute_1.png" alt="three finger salute"> -->
-			<div class="box_word_inside">
+			<div class="box_word_inside jumbotron" data-paroller-factor="0.1">
 				<p class="word_inside">Three Finger Salute</p>
 				<a class="box_read_inside" target="_blank" href="https://thehungergames.fandom.com/wiki/Three_Finger_Salute" > 
 				<span class="word_read_inside">READ THE SYNOPSIS</span>
@@ -85,7 +86,7 @@
 			<a href="#quote_1"><img class="img_arrow_down" src="img/icon_arrow.png" alt="arrow1"></a>
 		</div>
 		<div class="quote_1" id="quote_1">
-			<div class="box_word_quote1">
+			<div class="box_word_quote1 jumbotron" data-paroller-factor="0.1">
 				<p class="word_quote1">"A Little Hope Is Effective, A Lot Of Hope Is Dangerous."</p>
 			</div>
 			<!-- <img class="img_quote_1" src="img/quote_1_version2.jpg" alt="quote_1"> -->
@@ -135,7 +136,7 @@
 			<a href="#quote_2"><img class="img_arrow_down" src="img/icon_arrow.png" alt="arrow1"></a>
 		</div>
 		<div class="quote_2" id="quote_2">
-			<div class="box_word_quote1">
+			<div class="box_word_quote1 jumbotron" data-paroller-factor="0.1">
 				<p class="word_quote1">"May The Odds Be Ever In Your Favor."</p>
 			</div>
 			<!-- <img class="img_quote_2" src="img/quote_2_1_copy.png" alt="quote_2"> -->
@@ -150,7 +151,7 @@
 			<a href="#quote_3"><img class="img_arrow_down" src="img/icon_arrow.png" alt="arrow1"></a>
 		</div>
 		<div class="quote_3" id="quote_3">
-			<div class="box_word_quote1">
+			<div class="box_word_quote1 jumbotron" data-paroller-factor="0.1">
 				<p class="word_quote1">"Here's some advice. Stay alive"</p>
 			</div>
 			<!-- <img class="img_quote_2" src="img/quote_3_versiov2.jpg" alt="quote_3"> -->
@@ -211,6 +212,8 @@
 	<script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
 	<script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
 	<script type="text/javascript" src="slick/slick.min.js"></script>
+	<script src="js/jquery.paroller.min.js"></script>
+
 	<script type="text/javascript">
 		$('.galleries').slick({
 		dots: true,
@@ -221,7 +224,26 @@
 		arrows: true,
 		autoplay: true
 	  });
-	  </script>	
+	</script>	
+	<script>
+		$(document)
+			.ready(function () {
+				//initialize paroller.js
+				$('[data-paroller-factor]').paroller();
+				//initialize paroller.js and set options for elements with .paroller class
+				$('.paroller-example').paroller({
+					factorXs: 0.1,
+					factorSm: 0.1,
+					factorMd: -0.4,
+					factorLg: -0.5,
+					factorXl: -0.6,
+					factor: -0.4,
+					type: 'foreground',
+					direction: 'horizontal',
+					transition: 'transform .3s ease-out'
+				});
+			});
+	</script>
 	<script src="js/script.js"></script>
 </body>
 

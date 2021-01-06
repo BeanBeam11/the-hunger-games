@@ -111,7 +111,7 @@ a{
 	display: flex;
 	flex-direction: column;
 	left: 18vw;
-	top: 15vw;
+	top: 20vw;
 	width: 50vw;
 	height: 20vh;
 }
@@ -176,7 +176,7 @@ a{
 	font-size: 2.5rem;
 	color: #ffffff;
 	text-shadow: 0.1em 0.1em 0.05em #333;
-	margin-top: 25vh;
+	margin-top: 45vh;
 }
 
 /* People */
