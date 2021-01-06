@@ -62,16 +62,19 @@ body{
 }
 .box_books{
     position: absolute;
-    margin-top: 100px;
-    margin-left: 22vw;
-    width: 45vw;
+    width: 70vw;
+    height: 30vw;
     display: flex;
     flex-wrap: nowrap;
     justify-content: space-between;
+    right: 0;
+    left: 0;
+    margin: auto;
+    margin-top: 20vh;
 }
-.img{
-    position: absolute;
-    width: 15vw;
+.box_books .img{
+    position: relative;
+    width: 18vw;
     /* offset-x | offset-y | blur-radius | spread-radius | color */
     box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.5);
 }
