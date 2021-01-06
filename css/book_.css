@@ -35,8 +35,8 @@ body {
 }
 
 .cover {
-  width: calc(var(--baseline) * 60);
-  height: calc(var(--baseline) * 42.6);
+  width: 720px;
+  height: calc(360px / 0.65);
   box-shadow: 0 0 100px rgba(255, 255, 255, 0.3);
   overflow: hidden;
 }
@@ -178,6 +178,7 @@ body {
   font-size: calc(var(--base-size) * 0.67);
   font-style: italic;
   text-align: justify;
+  user-select: none;
 }
 .book__page .page__content-blockquote-reference {
   font-family: var(--title);
