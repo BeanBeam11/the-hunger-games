@@ -144,6 +144,9 @@ a{
 	left: 0;
 	font-family: 'Barlow Condensed', sans-serif;
 }
+.box_read_inside:hover{
+	opacity: 0.5;
+}
 .word_read_inside:hover{
 	opacity: 0.5;
 }

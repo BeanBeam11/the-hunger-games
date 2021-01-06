@@ -138,12 +138,12 @@ area{
 
   }
   .box_view_more{
-    width: 10vw;
+    width: 8vw;
     margin-top: 5vw;
   }
   .btn_view_more{
-    width: 10vw;
-    height: 3vh;
+    width: 8vw;
+    height: calc(8vw / 3.5);
     margin-top: 5vw;
     font-size: 8px;
   }
@@ -172,12 +172,12 @@ area{
 
   }
   .box_view_more{
-    width: 10vw;
+    width: 9vw;
     margin-top: 5vw;
   }
   .btn_view_more{
-    width: 10vw;
-    height: 3vh;
+    width: 9vw;
+    height: calc(9vw / 3.5);
     margin-top: 5vw;
     font-size: 8px;
   }
