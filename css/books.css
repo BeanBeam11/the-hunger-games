@@ -72,7 +72,7 @@ body{
     margin: auto;
     margin-top: 20vh;
 }
-.box_books .img{
+.img{
     position: relative;
     width: 18vw;
     /* offset-x | offset-y | blur-radius | spread-radius | color */
