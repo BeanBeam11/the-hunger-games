@@ -436,12 +436,12 @@ body{
 		width: 4vh;
 	}
 	.img_main_photo-box{
-		background-image: url(../img/The\ Hunger\ Games\ -\ In\ Arena.jpg);
+		background-image: url(../img/The\ Hunger\ Games\ -\ In\ Arena_m.jpg);
 		width: 100%;
-		height: 65vh;
-		background-size: cover;
+		height: 55vh;
+		background-size: contain;
 		background-repeat: no-repeat;
-		background-position: center center;
+		background-position: 0 0 ;
 		background-attachment: fixed;
 	}
 	.white_box{

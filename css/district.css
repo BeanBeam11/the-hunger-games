@@ -15,17 +15,20 @@ body{
     padding: 0;
     margin: 0;
 }
-
-.container {
-	background-color: #FFF;
+.container{
+  position: absolute;
+  top: 50px;
 }
 
  /* Content Style */
+ .box {
+  background-color: #FFF;
+  top: 50px;
+}
  .img_map{
   position: absolute;
-  top: 50px;
   width: 100vw;
-   /* min-width: 1920px; */
+/* min-width: 1920px; */
  }
  .box_map_explain{
    position: fixed;
