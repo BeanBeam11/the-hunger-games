@@ -210,6 +210,13 @@ body{
         /* offset-x | offset-y | blur-radius | spread-radius | color */
         box-shadow: 3px 3px 15px 1px rgba(255, 255, 255, 0.3);
     }
+    .img:hover{
+        width: 38vw;
+        height: calc(38vw / 0.65);
+        cursor: pointer;
+        transition: all 0.5s;
+        transform: translate(-50%, -50%);
+    }
     .box_book_1{
         width: 50vw;
         height: calc(200vh - 50px);
