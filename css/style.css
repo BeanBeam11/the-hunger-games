@@ -44,9 +44,7 @@ body{
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: center center;
-}
-.img_main_photo{
-	width: 100vw;
+	background-attachment: fixed;
 }
 .white_box{
 	position: relative;
