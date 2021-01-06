@@ -137,12 +137,6 @@
         margin: 0;
 		display: block;
 	}
-	.img_arrow_down{
-		width: 45px;
-	}
-	.img_arrow_top{
-		width: 45px;
-	}
 }
 @media screen and (max-width: 768px) {
     /* Header area */
